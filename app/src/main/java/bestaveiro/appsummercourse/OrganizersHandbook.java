@@ -9,5 +9,6 @@ public class OrganizersHandbook extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_organizers_handbook);
+//        vala
     }
 }
