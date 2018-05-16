@@ -9,5 +9,6 @@ public class GetToKnowDrinkingGames extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_get_to_know_drinking_games);
+//        mariana
     }
 }
