@@ -5,6 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="bestaveiro.appsummercourse.Contacts">
-    <!-- Valente -->
+    <!-- João Valente -->
 
 </android.support.constraint.ConstraintLayout>
