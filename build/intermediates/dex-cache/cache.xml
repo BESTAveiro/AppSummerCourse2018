@@ -2,22 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\fa8b21f7803f264c2b59a24ccc52ca6aaf4d3dc5\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\0a0a8080cb2c06ee2c229213520f1812451d59e2\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_82ca462b969bd901d58ba125d0cd44fff72c8d79\classes.dex" />
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_2631c08387ef89ad7d27e23e86196895ea17f23e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_dd9682eed28e56072e9621da0c6c37dd810b5d94\classes.dex" />
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\common-1.0.0_f53e011d115348deb7f419c58d2c25966cb4ca5e.jar" />
     </item>
     <item
         is-multidex="true"
@@ -25,62 +25,71 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="03f2207d4ca1d2bbfd9bf925414cbdb7371cf641">
+        sha1="eac2cb5a5ad7317f21af4560f1e279db33f9c723">
         <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_13aab92b4cf3b9927f5c36ab7bd28f4f1d6ddab5\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\e9050a75f916c7e6893d09f0558544ba6cf1ad62\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\670eb63164f5e9a8815d252c96ccea9517d21cae\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_feb6f23023fe10b17d732d348a72c11eea562d39\classes.dex" />
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_5991d4b9bc186483d07714aa4a2b802cfb5f277a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\71a0aec113d27a463d0529c4cde4ec7f6b7d8529\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\aeb7765eb6d42037de64ebd355a0e3f6be7d6c4f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fa8ff950a9fc8a7f18c3098b74c09b4f5dd8efb\classes.dex" />
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_b0ac4778b5298a417e43713b0e593244be660415.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\a9ab39bfeb0b359c767a66443761c3f5456d315a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.2"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2b403e169fbe28a9a225c8187277f5177102567c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\ca23b9213ce0aab390a46308494a46e250ef8230\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\2ac12edb13eb2c9278b514bb9a54948541679d83\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b93c0f220cb7823cae4ea57b6f374bce2181adca\classes.dex" />
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_e662feee897f6f41db2fff59f7b24852ef21af4c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\2820e88cc628170a90c0ccebd7f42c62342d9cad\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\eafb0a033b863467d72785a172b04f44aa956a86\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37088c6245bb680f87a24962449ee2f5a53cfdc9\classes.dex" />
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_c653d77b8383bf355842852288766070061f0d95.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\37fd407d93cfc161c082f8e617e81f57cd854860\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\1993d85f812eb211d9b3d1990ba88fe40e783f5e\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cb677dedf577647dcfd23b1c355526abefc025e6\classes.dex" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_527dc8517b5946f4fb32039890185912d97fbf93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\724b3f13bae33f71a10cf8b94080613496c565dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_50c78f511bcf765453f67974b3cb96e5542bc1b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joao\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_cb9f90231a26d01bbcf3154522020c75cd3c7ee2.jar" />
     </item>
     <item
         is-multidex="true"
@@ -92,67 +101,85 @@
         <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_daa31cbba6a11d8aef5a7816b99e8a3c9030ab00\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\1993d85f812eb211d9b3d1990ba88fe40e783f5e\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\44d231a17257e19ac81941d69595bdcfec1403a9\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_527dc8517b5946f4fb32039890185912d97fbf93\classes.dex" />
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_4be94247017c860d0c91d00acd28d0b82e1ebd33.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\d9f0e182421113971b8e31042168682a4d3cbec5\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\514607d57c044c7d338a879e1d76e25d3a7a8e12\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f53d861b082c1d0f535f1c545c378b1bcd16ab6e\classes.dex" />
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_6d2f702a0a0de4debecf5f96f297103f3ccb6f79.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\c421e29a5cb5292a997474bfc07fda4e80a6f804\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_528820caf92c0c88667681fe5a933414803b93ef\classes.dex" />
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\common-1.0.0_ddaffca215866f47798942a4e8c4615086340165.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\372bd2225794d97d52b675ab35658d579d7bd24b\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\8d96ab2dbf24fd13f870a51dd1ab606fe653ec04\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_63cf4f4e4d56fb4c6791f6ec438c686c451eb873\classes.dex" />
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_8014b912a81c325692f346621c0592f3aa1a9b76.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\7882d24b31284a1c0c7f4f466de431b798546ed8\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adeeff4cc30b9afd20625730d997a35e7dca3813\classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_dd9682eed28e56072e9621da0c6c37dd810b5d94.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\.android\build-cache\e5a7d2c5a9fe5854ad30a45e2d1c0b79708424d7\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\321a0996742914fac3c78087ebd550b7e6439759\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7525fec4cc7b1d42711b4d16fe801d96487237cf\classes.dex" />
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_cd63715f67234ade97f3caec4a0aee2e32fa01d4.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\joao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\21e5484352b81ae90688be47e473e70da7a98860\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_81d460c417afeab69759b79021f1157589751944\classes.dex" />
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_31e1558092e7c6f2bd432e074b1c4ee8c8a5dc07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\ad85a45c7ba48cf7333b25a649380eb0104ae7af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_8c1ca4e19f10da9d2d8023dfa3e94d7beda88c92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\joao\.android\build-cache\af67876e01867c74de383a6b3ac78510a80576b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\joao\YOUR-REPOSITORY\AppSummerCourse2018\app\build\intermediates\pre-dexed\debug\classes_dc35c06a85e97bb9ee5f1e9eb358ccc588e6b67b.jar" />
     </item>
 
 </items>

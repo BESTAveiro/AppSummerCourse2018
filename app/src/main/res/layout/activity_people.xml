@@ -11,6 +11,87 @@
         android:textSize="30dp"
         android:text="Name"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"></TextView>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
 
+
+    <TextView
+        android:id="@+id/text_view_nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/texto1"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:text="Role"
+        android:layout_below="@+id/text_view_nome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/text_view_cargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_below="@+id/texto2"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:text="Team"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/text_view_cargo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:id="@+id/text_view_equipa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_below="@+id/texto3"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:text="Phone Number"
+        android:layout_below="@+id/text_view_equipa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/text_view_numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/texto4"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:autoLink="phone"
+        android:textColorLink="@color/colorPrimaryDark"/>
 </RelativeLayout>

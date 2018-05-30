@@ -3,11 +3,13 @@ package bestaveiro.appsummercourse;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -17,11 +19,16 @@ import static bestaveiro.appsummercourse.R.id.lvExp;
 //https://www.youtube.com/watch?v=jZxZIFnJ9jE
 
 public class Contacts extends AppCompatActivity {
-
+    private final String TAG="Contacts";
     private ExpandableListView listView;
     private ExpandableListAdapter listAdapter;
     private List<String> listDataHeader;
     private HashMap<String,List<String>> listHash;
+
+    String[] nomeDasPessoas_CoreTeam;
+    String[] nomeDasPessoas_Organisers;
+    String[] nomeDasPessoas_Participantes;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,45 +41,42 @@ public class Contacts extends AppCompatActivity {
         listView.setAdapter(listAdapter);
         listView.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
-            public boolean onChildClick(ExpandableListView expandableListView, View view, int i, int i1, long l) {
-                Intent intent = new Intent(getBaseContex0201
-                        t(), People.class);
+            public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
+                Intent intent = new Intent(getBaseContext(), People.class);
 
-                //intent.putExtra("position", il);
+                childPosition = 1 + childPosition;
+                groupPosition = 1 + groupPosition;
+
+                int position = groupPosition*100 + childPosition;
+
+                Log.w(TAG,"Position: "+Integer.toString(position));
+
+                intent.putExtra("position", position);
                 startActivity(intent);
-                return false;
+                return true;
             }
         });
     }
 
 
     private void initData() {
-        listDataHeader = new ArrayList<>();
+        listDataHeader = new ArrayList<String>();
         listHash = new HashMap<>();
 
         listDataHeader.add("Core Team");
         listDataHeader.add("Organisers");
         listDataHeader.add("Participants");
 
-        List<String> edmtDev = new ArrayList<String>();
-        edmtDev.add("This is Expandable ListView");
+        nomeDasPessoas_CoreTeam = getResources().getStringArray(R.array.CoreTeam);
+        List<String> CoreTeam = Arrays.asList(nomeDasPessoas_CoreTeam);
+        nomeDasPessoas_Organisers = getResources().getStringArray(R.array.Organisers);
+        List<String> Organisers = Arrays.asList(nomeDasPessoas_Organisers);
+        nomeDasPessoas_Participantes = getResources().getStringArray(R.array.Participants);
+        List<String> Participants = Arrays.asList(nomeDasPessoas_Participantes);
 
-        List<String> androidStudio = new ArrayList<String>();
-        androidStudio.add("Expandable ListView");
-        androidStudio.add("Google Map");
-        androidStudio.add("Chat Application");
-        androidStudio.add("Firebase ");
-
-        List<String> group3 = new ArrayList<String>();
-        group3.add("Expandable ListView");
-        group3.add("Google Map");
-        group3.add("Chat Application");
-        group3.add("Firebase ");
-
-
-        listHash.put(listDataHeader.get(0),edmtDev);
-        listHash.put(listDataHeader.get(1),androidStudio);
-        listHash.put(listDataHeader.get(2),group3);
+        listHash.put(listDataHeader.get(0),CoreTeam);
+        listHash.put(listDataHeader.get(1),Organisers);
+        listHash.put(listDataHeader.get(2),Participants);
 
 
     }

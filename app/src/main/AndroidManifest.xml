@@ -22,6 +22,7 @@
         <activity android:name=".OrganizersHandbook" />
         <activity android:name=".GetToKnowDrinkingGames" />
         <activity android:name=".Contacts" />
+        <activity android:name=".People"/>
         <activity android:name=".Map"></activity>
     </application>
 

@@ -5,4 +5,94 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string-array name="CoreTeam">
+        <item>Ana Margarida</item>
+        <item>Ana Malta</item>
+        <item>Ana Vasconcelos</item>
+        <item>Ana Candeidas</item>
+    </string-array>
+
+    <string-array name="telemoveisDasPessoas_CoreTeam">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+
+    </string-array>
+
+    <string-array name="equipasDasPessoas_CoreTeam">
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+    </string-array>
+
+    <string-array name="cargoDasPessoas_CoreTeam">
+        <item>Presidente</item>
+        <item>Social Responsible</item>
+        <item>IT Responsible</item>
+        <item>MKT Responsible</item>
+
+    </string-array>
+
+    <string-array name="Organisers">
+        <item>Ana Margarida</item>
+        <item>Ana Malta</item>
+        <item>Ana Vasconcelos</item>
+        <item>Ana Candeidas</item>
+    </string-array>
+    <string-array name="telemoveisDasPessoas_Organisers">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+
+    </string-array>
+
+    <string-array name="equipasDasPessoas_Organsiers">
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+    </string-array>
+
+    <string-array name="cargoDasPessoas_Organisers">
+    <item>Presidente</item>
+    <item>Social Responsible</item>
+    <item>IT Responsible</item>
+    <item>MKT Responsible</item>
+    </string-array>
+
+
+    <string-array name="Participants">
+        <item>Ana Margarida</item>
+        <item>Ana Malta</item>
+        <item>Ana Vasconcelos</item>
+        <item>Ana Candeidas</item>
+    </string-array>
+    <string-array name="telemoveisDasPessoas_Participants">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+
+    </string-array>
+
+    <string-array name="equipasDasPessoas_Participants">
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+    </string-array>
+
+    <string-array name="cargoDasPessoas_Participants">
+    <item>Presidente</item>
+    <item>Social Responsible</item>
+    <item>IT Responsible</item>
+    <item>MKT Responsible</item>
+    </string-array>
+
+
+
 </resources>
