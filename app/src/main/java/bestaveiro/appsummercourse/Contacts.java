@@ -1,9 +1,11 @@
 package bestaveiro.appsummercourse;
 
+import android.app.SearchManager;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.Toast;
@@ -16,7 +18,7 @@ import java.util.List;
 import static bestaveiro.appsummercourse.R.id.lblListItem;
 import static bestaveiro.appsummercourse.R.id.lvExp;
 
-//https://www.youtube.com/watch?v=jZxZIFnJ9jE
+//https://www.youtube.com/watch?v=zaXEeZDz5cQ&t=162s
 
 public class Contacts extends AppCompatActivity {
     private final String TAG="Contacts";
@@ -80,4 +82,6 @@ public class Contacts extends AppCompatActivity {
 
 
     }
+
+
 }
