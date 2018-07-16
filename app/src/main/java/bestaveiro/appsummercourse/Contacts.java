@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.app.Activity;
 import android.app.SearchManager;
@@ -15,6 +16,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.ExpandableListView;
+import android.widget.ImageView;
 import android.widget.SearchView;
 
 import static android.content.ContentValues.TAG;
@@ -27,21 +29,15 @@ public class Contacts extends AppCompatActivity implements
     private ExpandableListView myList;
     private ArrayList<ContactsParent> contactsParentList = new ArrayList<ContactsParent>();
 
+    Drawable iv1, iv2, iv3, iv4, iv5, iv6;
+    Drawable[] drawables;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
 
-//        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-//        search = (SearchView) findViewById(R.id.search);
-//        search.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-//        search.setIconifiedByDefault(false);
-//        search.setOnQueryTextListener(this);
-//        search.setOnCloseListener(this);
-
-        //display the list
         displayList();
-        //expand all Groups
 
         myList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
@@ -108,19 +104,41 @@ public class Contacts extends AppCompatActivity implements
         String[] participantsStrings = getResources().getStringArray(R.array.Participants);
 
 
+
+        drawables = new Drawable[] {
+                getResources().getDrawable(R.drawable.ic_menu_camera),
+                getResources().getDrawable(R.drawable.ic_menu_gallery),
+                getResources().getDrawable(R.drawable.ic_menu_send),
+                getResources().getDrawable(R.drawable.ic_menu_camera),
+                getResources().getDrawable(R.drawable.ic_menu_camera)
+        };
+
+
+
         ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
         ContactsChild contactsChild;
         for(int i = 0; i<coreTeamStrings.length; i++){
-            contactsChild = new ContactsChild(coreTeamStrings[i]);
+            contactsChild = new ContactsChild(coreTeamStrings[i], drawables[i]);
             contactsChildList.add(contactsChild);
+
+            Log.w(TAG,"Position merdasdasdq asdsad"+ coreTeamStrings[i]);
+
         }
 
         ContactsParent contactsParent = new ContactsParent("Core Team", contactsChildList);
         contactsParentList.add(contactsParent);
 
+        drawables = new Drawable[] {
+                getResources().getDrawable(R.drawable.ic_menu_send),
+                getResources().getDrawable(R.drawable.ic_menu_send),
+                getResources().getDrawable(R.drawable.ic_menu_send),
+                getResources().getDrawable(R.drawable.ic_menu_camera),
+                getResources().getDrawable(R.drawable.ic_menu_camera)
+        };
+
         contactsChildList = new ArrayList<ContactsChild>();
         for(int i = 0; i<coreTeamStrings.length; i++){
-            contactsChild = new ContactsChild(organisersStrings[i]);
+            contactsChild = new ContactsChild(organisersStrings[i], drawables[i]);
             contactsChildList.add(contactsChild);
         }
 
@@ -129,7 +147,7 @@ public class Contacts extends AppCompatActivity implements
 
         contactsChildList = new ArrayList<ContactsChild>();
         for(int i = 0; i<participantsStrings.length; i++){
-            contactsChild = new ContactsChild(participantsStrings[i]);
+            contactsChild = new ContactsChild(participantsStrings[i], drawables[i]);
             contactsChildList.add(contactsChild);
         }
 

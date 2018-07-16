@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MyListAdapter extends BaseExpandableListAdapter {
@@ -49,6 +50,9 @@ public class MyListAdapter extends BaseExpandableListAdapter {
 
         TextView name = (TextView) view.findViewById(R.id.name);
         name.setText(contactsChild.getName().trim());
+
+        ImageView imageView = (ImageView) view.findViewById(R.id.faces);
+        imageView.setImageDrawable(contactsChild.getDrawable());
 
         return view;
     }
