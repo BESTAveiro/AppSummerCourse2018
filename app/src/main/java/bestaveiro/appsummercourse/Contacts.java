@@ -32,12 +32,12 @@ public class Contacts extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
 
-        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-        search = (SearchView) findViewById(R.id.search);
-        search.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-        search.setIconifiedByDefault(false);
-        search.setOnQueryTextListener(this);
-        search.setOnCloseListener(this);
+//        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+//        search = (SearchView) findViewById(R.id.search);
+//        search.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+//        search.setIconifiedByDefault(false);
+//        search.setOnQueryTextListener(this);
+//        search.setOnCloseListener(this);
 
         //display the list
         displayList();
@@ -66,6 +66,15 @@ public class Contacts extends AppCompatActivity implements
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_contacts, menu);
+
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        search = (SearchView) menu.findItem(R.id.searchmenu).getActionView();
+        search.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+
+        search.setIconifiedByDefault(false);
+        search.setOnQueryTextListener(this);
+        search.setOnCloseListener(this);
+
         return true;
     }
 
