@@ -47,12 +47,8 @@ public class MyListAdapter extends BaseExpandableListAdapter {
             view = layoutInflater.inflate(R.layout.child_row, null);
         }
 
-        TextView code = (TextView) view.findViewById(R.id.code);
         TextView name = (TextView) view.findViewById(R.id.name);
-        TextView population = (TextView) view.findViewById(R.id.population);
-        code.setText(contactsChild.getCode().trim());
         name.setText(contactsChild.getName().trim());
-        population.setText(NumberFormat.getNumberInstance(Locale.US).format(contactsChild.getPopulation()));
 
         return view;
     }
@@ -90,8 +86,8 @@ public class MyListAdapter extends BaseExpandableListAdapter {
             view = layoutInflater.inflate(R.layout.parent_row, null);
         }
 
-        TextView heading = (TextView) view.findViewById(R.id.heading);
-        heading.setText(contactsParent.getName().trim());
+        TextView groupName = (TextView) view.findViewById(R.id.groupName);
+        groupName.setText(contactsParent.getGroup().trim());
 
         return view;
     }
@@ -122,13 +118,12 @@ public class MyListAdapter extends BaseExpandableListAdapter {
                 ArrayList<ContactsChild> contactsChildList = contactsParent.getContactsChildList();
                 ArrayList<ContactsChild> newList = new ArrayList<ContactsChild>();
                 for(ContactsChild contactsChild : contactsChildList){
-                    if(contactsChild.getCode().toLowerCase().contains(query) ||
-                            contactsChild.getName().toLowerCase().contains(query)){
+                    if(contactsChild.getName().toLowerCase().contains(query)){
                         newList.add(contactsChild);
                     }
                 }
                 if(newList.size() > 0){
-                    ContactsParent nContactsParent = new ContactsParent(contactsParent.getName(),newList);
+                    ContactsParent nContactsParent = new ContactsParent(contactsParent.getGroup(),newList);
                     contactsParentList.add(nContactsParent);
                 }
             }
@@ -140,4 +135,3 @@ public class MyListAdapter extends BaseExpandableListAdapter {
     }
 
 }
-

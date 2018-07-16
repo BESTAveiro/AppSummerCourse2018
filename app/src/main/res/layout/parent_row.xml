@@ -4,7 +4,7 @@
     android:layout_height="55dip">
 
     <TextView
-        android:id="@+id/heading"
+        android:id="@+id/groupName"
         android:textSize="16dip"
         android:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
         android:paddingTop="5dp"

@@ -4,19 +4,19 @@ import java.util.ArrayList;
 
 public class ContactsParent {
 
-    private String name;
-    private ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
+    private String group;
+    private ArrayList<ContactsChild> contactsChildList;
 
-    public ContactsParent(String name, ArrayList<ContactsChild> contactsChildList) {
+    public ContactsParent(String group, ArrayList<ContactsChild> contactsChildList) {
         super();
-        this.name = name;
+        this.group = group;
         this.contactsChildList = contactsChildList;
     }
-    public String getName() {
-        return name;
+    public String getGroup() {
+        return group;
     }
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String group) {
+        this.group = group;
     }
     public ArrayList<ContactsChild> getContactsChildList() {
         return contactsChildList;

@@ -9,10 +9,10 @@ q
     <string name="action_settings">Settings</string>
 
     <string-array name="CoreTeam">
-        <item>Ana Margarida</item>
-        <item>Ana Malta</item>
-        <item>Ana Vasconcelos</item>
-        <item>Ana Candeidas</item>
+        <item>CoreTeam1</item>
+        <item>CoreTeam2</item>
+        <item>CoreTeam3</item>
+        <item>CoreTeam4</item>
     </string-array>
 
     <string-array name="telemoveisDasPessoas_CoreTeam">
@@ -39,10 +39,10 @@ q
     </string-array>
 
     <string-array name="Organisers">
-        <item>Ana Margarida</item>
-        <item>Ana Malta</item>
-        <item>Ana Vasconcelos</item>
-        <item>Ana Candeidas</item>
+        <item>Organiser1</item>
+        <item>Organiser2</item>
+        <item>Organiser3</item>
+        <item>Organiser4</item>
     </string-array>
     <string-array name="telemoveisDasPessoas_Organisers">
         <item>123 456 789</item>
@@ -68,10 +68,10 @@ q
 
 
     <string-array name="Participants">
-        <item>Ana Margarida</item>
-        <item>Ana Malta</item>
-        <item>Ana Vasconcelos</item>
-        <item>Ana Candeidas</item>
+        <item>Participante1</item>
+        <item>Participante2</item>
+        <item>Participante3</item>
+        <item>Participante4</item>
     </string-array>
     <string-array name="telemoveisDasPessoas_Participants">
         <item>123 456 789</item>

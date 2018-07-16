@@ -1,6 +1,8 @@
 package bestaveiro.appsummercourse;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -92,26 +94,37 @@ public class Contacts extends AppCompatActivity implements
 
     private void loadSomeData() {
 
-        ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
-        ContactsChild contactsChild = new ContactsChild("BMU","Bermuda",10000000);
-        contactsChildList.add(contactsChild);
-        contactsChild = new ContactsChild("CAN","Canada",20000000);
-        contactsChildList.add(contactsChild);
-        contactsChild = new ContactsChild("USA","United States",50000000);
-        contactsChildList.add(contactsChild);
+        String[] coreTeamStrings = getResources().getStringArray(R.array.CoreTeam);
+        String[] organisersStrings = getResources().getStringArray(R.array.Organisers);
+        String[] participantsStrings = getResources().getStringArray(R.array.Participants);
 
-        ContactsParent contactsParent = new ContactsParent("North America", contactsChildList);
+
+        ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
+        ContactsChild contactsChild;
+        for(int i = 0; i<coreTeamStrings.length; i++){
+            contactsChild = new ContactsChild(coreTeamStrings[i]);
+            contactsChildList.add(contactsChild);
+        }
+
+        ContactsParent contactsParent = new ContactsParent("Core Team", contactsChildList);
         contactsParentList.add(contactsParent);
 
         contactsChildList = new ArrayList<ContactsChild>();
-        contactsChild = new ContactsChild("CHN","China",10000100);
-        contactsChildList.add(contactsChild);
-        contactsChild = new ContactsChild("JPN","Japan",20000200);
-        contactsChildList.add(contactsChild);
-        contactsChild = new ContactsChild("THA","Thailand",50000500);
-        contactsChildList.add(contactsChild);
+        for(int i = 0; i<coreTeamStrings.length; i++){
+            contactsChild = new ContactsChild(organisersStrings[i]);
+            contactsChildList.add(contactsChild);
+        }
 
-        contactsParent = new ContactsParent("Asia", contactsChildList);
+        contactsParent = new ContactsParent("Organisers", contactsChildList);
+        contactsParentList.add(contactsParent);
+
+        contactsChildList = new ArrayList<ContactsChild>();
+        for(int i = 0; i<participantsStrings.length; i++){
+            contactsChild = new ContactsChild(participantsStrings[i]);
+            contactsChildList.add(contactsChild);
+        }
+
+        contactsParent = new ContactsParent("Participants", contactsChildList);
         contactsParentList.add(contactsParent);
 
     }
