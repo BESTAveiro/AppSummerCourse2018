@@ -1,8 +1,6 @@
 package bestaveiro.appsummercourse;
 
-import android.graphics.Bitmap;
 import android.graphics.drawable.Drawable;
-import android.widget.ImageView;
 
 public class ContactsChild {
 

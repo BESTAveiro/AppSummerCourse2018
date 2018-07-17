@@ -17,6 +17,9 @@ import android.widget.SearchView;
 
 import static android.content.ContentValues.TAG;
 
+//https://www.iconfinder.com/iconsets/famfamfam_flag_icons
+
+
 public class Contacts extends AppCompatActivity implements
         SearchView.OnQueryTextListener, SearchView.OnCloseListener{
 
@@ -24,38 +27,27 @@ public class Contacts extends AppCompatActivity implements
     private MyListAdapter listAdapter;
     private ExpandableListView myList;
     private ArrayList<ContactsParent> contactsParentList = new ArrayList<ContactsParent>();
-
     Drawable[] drawables;
     Drawable[] drawablesFlags;
-
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
         this.setTitle("Contacts"); // Nome no separador
-
         displayList();
-
         myList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
             @Override
             public boolean onChildClick(ExpandableListView expandableListView, View view, int groupPosition, int childPosition, long l) {
                 Intent intent = new Intent(getBaseContext(), People.class);
-
                 childPosition = 1 + childPosition;
                 groupPosition = 1 + groupPosition;
-
                 int position = groupPosition*100 + childPosition;
-
                 Log.w(TAG,"Position: "+Integer.toString(position));
-
                 intent.putExtra("position", position);
                 startActivity(intent);
                 return true;
             }
         });
-
     }
 
     @Override
@@ -65,11 +57,9 @@ public class Contacts extends AppCompatActivity implements
         SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         search = (SearchView) menu.findItem(R.id.searchmenu).getActionView();
         search.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-
         search.setIconifiedByDefault(false);
         search.setOnQueryTextListener(this);
         search.setOnCloseListener(this);
-
         return true;
     }
 
@@ -80,29 +70,22 @@ public class Contacts extends AppCompatActivity implements
             myList.expandGroup(i);
         }
     }
-
     //method to expand all groups
     private void displayList() {
-
         //display the list
         loadSomeData();
-
         //get reference to the ExpandableListView
         myList = (ExpandableListView) findViewById(R.id.expandableList);
         //create the adapter by passing your ArrayList data
         listAdapter = new MyListAdapter(Contacts.this, contactsParentList);
         //attach the adapter to the list
         myList.setAdapter(listAdapter);
-
     }
     ImageView imageView;
     private void loadSomeData() {
-
         String[] coreTeamStrings = getResources().getStringArray(R.array.CoreTeam);
         String[] organisersStrings = getResources().getStringArray(R.array.Organisers);
         String[] participantsStrings = getResources().getStringArray(R.array.Participants);
-
-
         drawables = new Drawable[] {
                 getResources().getDrawable(R.drawable.valente), // CoreTeam 1
                 getResources().getDrawable(R.drawable.valente),
@@ -117,23 +100,15 @@ public class Contacts extends AppCompatActivity implements
                 getResources().getDrawable(R.drawable.flag_portugal),
                 getResources().getDrawable(R.drawable.flag_portugal),
         };
-
         ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
         ContactsChild contactsChild;
         for(int i = 0; i<coreTeamStrings.length; i++){
             contactsChild = new ContactsChild(coreTeamStrings[i], drawables[i], drawablesFlags[i]);
             contactsChildList.add(contactsChild);
-
             Log.w(TAG, coreTeamStrings[i] +" " + drawablesFlags[i]);
-
-
         }
-
-
-
         ContactsParent contactsParent = new ContactsParent("Core Team", contactsChildList);
         contactsParentList.add(contactsParent);
-
         drawables = new Drawable[] {
                 getResources().getDrawable(R.drawable.valente), // Organiser 1
                 getResources().getDrawable(R.drawable.valente),
@@ -181,7 +156,6 @@ public class Contacts extends AppCompatActivity implements
 
         contactsParent = new ContactsParent("Participants", contactsChildList);
         contactsParentList.add(contactsParent);
-
     }
 
     @Override

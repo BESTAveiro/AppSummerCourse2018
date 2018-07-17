@@ -1,10 +1,15 @@
 package bestaveiro.appsummercourse;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.ExpandableListView;
 import android.widget.TextView;
+
 
 /**
  * Created by joao on 17/09/2017.
@@ -57,8 +62,20 @@ public class People extends AppCompatActivity {
             cargo.setText(cargoDasPessoas_CoreTeam[childPosition]);
             TextView equipas=(TextView) findViewById(R.id.text_view_equipa);
             equipas.setText(equipasDasPessoas_CoreTeam[childPosition]);
-            TextView numero=(TextView) findViewById(R.id.text_view_numero);
+            final TextView numero=(TextView) findViewById(R.id.text_view_numero);
             numero.setText(telemoveisDasPessoas_CoreTeam[childPosition]);
+
+            numero.setOnClickListener(new TextView.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String input = numero.getText().toString();
+                    Uri call = Uri.parse("tel:" + input);
+                    Intent surf = new Intent(Intent.ACTION_DIAL, call);
+                    startActivity(surf);
+
+                }
+
+            });
 
         }else if(groupPosition == 2){
             nomeDasPessoas_Organisers = getResources().getStringArray(R.array.Organisers);
@@ -73,8 +90,18 @@ public class People extends AppCompatActivity {
             cargo.setText(cargoDasPessoas_Organisers[childPosition]);
             TextView equipas=(TextView) findViewById(R.id.text_view_equipa);
             equipas.setText(equipasDasPessoas_Organisers[childPosition]);
-            TextView numero=(TextView) findViewById(R.id.text_view_numero);
+            final TextView numero=(TextView) findViewById(R.id.text_view_numero);
             numero.setText(telemoveisDasPessoas_Organisers[childPosition]);
+
+            numero.setOnClickListener(new TextView.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String input = numero.getText().toString();
+                    Uri call = Uri.parse("tel:" + input);
+                    Intent surf = new Intent(Intent.ACTION_DIAL, call);
+                    startActivity(surf);
+                }
+            });
 
         }else if(groupPosition == 3){
             nomeDasPessoas_Participants = getResources().getStringArray(R.array.Participants);
@@ -89,9 +116,24 @@ public class People extends AppCompatActivity {
             cargo.setText(cargoDasPessoas_Participants[childPosition]);
             TextView equipas=(TextView) findViewById(R.id.text_view_equipa);
             equipas.setText(equipasDasPessoas_Participants[childPosition]);
-            TextView numero=(TextView) findViewById(R.id.text_view_numero);
+            final TextView numero=(TextView) findViewById(R.id.text_view_numero);
             numero.setText(telemoveisDasPessoas_Participants[childPosition]);
+
+            numero.setOnClickListener(new TextView.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    String input = numero.getText().toString();
+                    Uri call = Uri.parse("tel:" + input);
+                    Intent surf = new Intent(Intent.ACTION_DIAL, call);
+                    startActivity(surf);
+
+                }
+
+            });
         }
 
     }
+
+
+
 }
