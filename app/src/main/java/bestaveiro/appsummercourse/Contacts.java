@@ -7,11 +7,9 @@ import java.util.List;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.app.Activity;
 import android.app.SearchManager;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -29,7 +27,6 @@ public class Contacts extends AppCompatActivity implements
     private ExpandableListView myList;
     private ArrayList<ContactsParent> contactsParentList = new ArrayList<ContactsParent>();
 
-    Drawable iv1, iv2, iv3, iv4, iv5, iv6;
     Drawable[] drawables;
 
     @Override
@@ -96,7 +93,7 @@ public class Contacts extends AppCompatActivity implements
         myList.setAdapter(listAdapter);
 
     }
-
+    ImageView imageView;
     private void loadSomeData() {
 
         String[] coreTeamStrings = getResources().getStringArray(R.array.CoreTeam);
@@ -104,9 +101,8 @@ public class Contacts extends AppCompatActivity implements
         String[] participantsStrings = getResources().getStringArray(R.array.Participants);
 
 
-
         drawables = new Drawable[] {
-                getResources().getDrawable(R.drawable.ic_menu_camera),
+                getResources().getDrawable(R.drawable.valente), // CoreTeam 1
                 getResources().getDrawable(R.drawable.ic_menu_gallery),
                 getResources().getDrawable(R.drawable.ic_menu_send),
                 getResources().getDrawable(R.drawable.ic_menu_camera),
@@ -129,7 +125,7 @@ public class Contacts extends AppCompatActivity implements
         contactsParentList.add(contactsParent);
 
         drawables = new Drawable[] {
-                getResources().getDrawable(R.drawable.ic_menu_send),
+                getResources().getDrawable(R.drawable.ic_menu_send), // Organiser 1
                 getResources().getDrawable(R.drawable.ic_menu_send),
                 getResources().getDrawable(R.drawable.ic_menu_send),
                 getResources().getDrawable(R.drawable.ic_menu_camera),
@@ -144,6 +140,14 @@ public class Contacts extends AppCompatActivity implements
 
         contactsParent = new ContactsParent("Organisers", contactsChildList);
         contactsParentList.add(contactsParent);
+
+        drawables = new Drawable[] {
+                getResources().getDrawable(R.drawable.valente), // Participant 1
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.ic_menu_camera)
+        };
 
         contactsChildList = new ArrayList<ContactsChild>();
         for(int i = 0; i<participantsStrings.length; i++){
