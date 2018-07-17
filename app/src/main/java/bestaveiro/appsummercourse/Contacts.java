@@ -1,8 +1,6 @@
 package bestaveiro.appsummercourse;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
@@ -33,6 +31,7 @@ public class Contacts extends AppCompatActivity implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
+        this.setTitle("Contacts"); // Nome no separador
 
         displayList();
 
@@ -103,10 +102,10 @@ public class Contacts extends AppCompatActivity implements
 
         drawables = new Drawable[] {
                 getResources().getDrawable(R.drawable.valente), // CoreTeam 1
-                getResources().getDrawable(R.drawable.ic_menu_gallery),
-                getResources().getDrawable(R.drawable.ic_menu_send),
-                getResources().getDrawable(R.drawable.ic_menu_camera),
-                getResources().getDrawable(R.drawable.ic_menu_camera)
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente)
         };
 
 
@@ -125,11 +124,11 @@ public class Contacts extends AppCompatActivity implements
         contactsParentList.add(contactsParent);
 
         drawables = new Drawable[] {
-                getResources().getDrawable(R.drawable.ic_menu_send), // Organiser 1
-                getResources().getDrawable(R.drawable.ic_menu_send),
-                getResources().getDrawable(R.drawable.ic_menu_send),
-                getResources().getDrawable(R.drawable.ic_menu_camera),
-                getResources().getDrawable(R.drawable.ic_menu_camera)
+                getResources().getDrawable(R.drawable.valente), // Organiser 1
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente),
+                getResources().getDrawable(R.drawable.valente)
         };
 
         contactsChildList = new ArrayList<ContactsChild>();
@@ -146,7 +145,7 @@ public class Contacts extends AppCompatActivity implements
                 getResources().getDrawable(R.drawable.valente),
                 getResources().getDrawable(R.drawable.valente),
                 getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.ic_menu_camera)
+                getResources().getDrawable(R.drawable.valente)
         };
 
         contactsChildList = new ArrayList<ContactsChild>();
