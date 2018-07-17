@@ -2,12 +2,12 @@ package bestaveiro.appsummercourse;
 
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.ExpandableListView;
 import android.widget.TextView;
 
 
@@ -63,6 +63,7 @@ public class People extends AppCompatActivity {
             TextView equipas=(TextView) findViewById(R.id.text_view_equipa);
             equipas.setText(equipasDasPessoas_CoreTeam[childPosition]);
             final TextView numero=(TextView) findViewById(R.id.text_view_numero);
+            numero.setPaintFlags(numero.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
             numero.setText(telemoveisDasPessoas_CoreTeam[childPosition]);
 
             numero.setOnClickListener(new TextView.OnClickListener() {

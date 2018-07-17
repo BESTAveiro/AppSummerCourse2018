@@ -12,6 +12,6 @@
         android:layout_height="64dip"
         android:textStyle="bold"
         android:textColor="#FFFFFF"
-        android:background="@color/colorPrimaryDark"/>
+        android:background="@color/colorSexy"/>
 
 </LinearLayout>
