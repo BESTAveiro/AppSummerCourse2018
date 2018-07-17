@@ -9,10 +9,10 @@ q
     <string name="action_settings">Settings</string>
 
     <string-array name="CoreTeam">
-        <item>CoreTeam1</item>
-        <item>CoreTeam2</item>
-        <item>CoreTeam3</item>
-        <item>CoreTeam4</item>
+        <item>João Valente</item>
+        <item>João Valente</item>
+        <item>João Valente</item>
+        <item>João Valente</item>
     </string-array>
 
     <string-array name="telemoveisDasPessoas_CoreTeam">

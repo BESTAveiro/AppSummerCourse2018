@@ -54,6 +54,9 @@ public class MyListAdapter extends BaseExpandableListAdapter {
         ImageView imageView = (ImageView) view.findViewById(R.id.faces);
         imageView.setImageDrawable(contactsChild.getDrawable());
 
+        ImageView imageViewFlags = (ImageView) view.findViewById(R.id.imageViewFlags);
+        imageViewFlags.setImageDrawable(contactsChild.getDrawableFlags());
+
         return view;
     }
 

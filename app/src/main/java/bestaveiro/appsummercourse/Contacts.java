@@ -26,6 +26,9 @@ public class Contacts extends AppCompatActivity implements
     private ArrayList<ContactsParent> contactsParentList = new ArrayList<ContactsParent>();
 
     Drawable[] drawables;
+    Drawable[] drawablesFlags;
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -107,18 +110,26 @@ public class Contacts extends AppCompatActivity implements
                 getResources().getDrawable(R.drawable.valente),
                 getResources().getDrawable(R.drawable.valente)
         };
-
-
+        drawablesFlags = new Drawable[] {
+                getResources().getDrawable(R.drawable.flag_portugal), // CoreTeam 1
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+        };
 
         ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
         ContactsChild contactsChild;
         for(int i = 0; i<coreTeamStrings.length; i++){
-            contactsChild = new ContactsChild(coreTeamStrings[i], drawables[i]);
+            contactsChild = new ContactsChild(coreTeamStrings[i], drawables[i], drawablesFlags[i]);
             contactsChildList.add(contactsChild);
 
-            Log.w(TAG,"Position merdasdasdq asdsad"+ coreTeamStrings[i]);
+            Log.w(TAG, coreTeamStrings[i] +" " + drawablesFlags[i]);
+
 
         }
+
+
 
         ContactsParent contactsParent = new ContactsParent("Core Team", contactsChildList);
         contactsParentList.add(contactsParent);
@@ -130,10 +141,17 @@ public class Contacts extends AppCompatActivity implements
                 getResources().getDrawable(R.drawable.valente),
                 getResources().getDrawable(R.drawable.valente)
         };
+        drawablesFlags = new Drawable[] {
+                getResources().getDrawable(R.drawable.flag_portugal), // Organiser 1
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+        };
 
         contactsChildList = new ArrayList<ContactsChild>();
         for(int i = 0; i<coreTeamStrings.length; i++){
-            contactsChild = new ContactsChild(organisersStrings[i], drawables[i]);
+            contactsChild = new ContactsChild(organisersStrings[i], drawables[i], drawablesFlags[i]);
             contactsChildList.add(contactsChild);
         }
 
@@ -147,10 +165,17 @@ public class Contacts extends AppCompatActivity implements
                 getResources().getDrawable(R.drawable.valente),
                 getResources().getDrawable(R.drawable.valente)
         };
+        drawablesFlags = new Drawable[] {
+                getResources().getDrawable(R.drawable.flag_portugal), // Participant 1
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+                getResources().getDrawable(R.drawable.flag_portugal),
+        };
 
         contactsChildList = new ArrayList<ContactsChild>();
         for(int i = 0; i<participantsStrings.length; i++){
-            contactsChild = new ContactsChild(participantsStrings[i], drawables[i]);
+            contactsChild = new ContactsChild(participantsStrings[i], drawables[i], drawablesFlags[i]);
             contactsChildList.add(contactsChild);
         }
 

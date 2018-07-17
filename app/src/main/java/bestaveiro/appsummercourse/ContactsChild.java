@@ -8,11 +8,15 @@ public class ContactsChild {
 
     private String name = "";
     private Drawable drawable;
+    private Drawable drawableFlags;
 
-    public ContactsChild(String name, Drawable drawable) {
+
+    public ContactsChild(String name, Drawable drawable, Drawable drawableFlags) {
         super();
         this.name = name;
-        this.drawable =drawable;
+        this.drawableFlags = drawableFlags;
+        this.drawable = drawable;
+
     }
 
     public String getName() {
@@ -28,6 +32,15 @@ public class ContactsChild {
     public void setDrawable(Drawable drawable) {
         this.drawable = drawable;
     }
+
+    public Drawable getDrawableFlags() {
+        return drawableFlags;
+    }
+    public void setDrawableFlags(Drawable drawableFlags) {
+        this.drawableFlags = drawableFlags;
+
+    }
+
 
 
 }
