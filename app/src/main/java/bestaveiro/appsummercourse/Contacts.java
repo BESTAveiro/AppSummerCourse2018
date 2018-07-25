@@ -83,79 +83,142 @@ public class Contacts extends AppCompatActivity implements
     }
     ImageView imageView;
     private void loadSomeData() {
-        String[] coreTeamStrings = getResources().getStringArray(R.array.CoreTeam);
-        String[] organisersStrings = getResources().getStringArray(R.array.Organisers);
-        String[] participantsStrings = getResources().getStringArray(R.array.Participants);
-        drawables = new Drawable[] {
-                getResources().getDrawable(R.drawable.valente), // CoreTeam 1
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente)
-        };
-        drawablesFlags = new Drawable[] {
-                getResources().getDrawable(R.drawable.flag_portugal), // CoreTeam 1
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-        };
-        ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
-        ContactsChild contactsChild;
-        for(int i = 0; i<coreTeamStrings.length; i++){
-            contactsChild = new ContactsChild(coreTeamStrings[i], drawables[i], drawablesFlags[i]);
-            contactsChildList.add(contactsChild);
-            Log.w(TAG, coreTeamStrings[i] +" " + drawablesFlags[i]);
+
+        // App dos Participantes
+        int login = 2;
+        switch (login){
+            case 1: // App dos Pax
+                String[] organisersStrings = getResources().getStringArray(R.array.Organisers_Pax);
+                String[] participantsStrings = getResources().getStringArray(R.array.Participants);
+
+
+                ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
+                ContactsChild contactsChild;
+                drawables = new Drawable[]{
+                        getResources().getDrawable(R.drawable.valente), // Organiser 1
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente)
+                };
+                drawablesFlags = new Drawable[]{
+                        getResources().getDrawable(R.drawable.flag_portugal), // Organiser 1
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                };
+
+                contactsChildList = new ArrayList<ContactsChild>();
+                for (int i = 0; i < organisersStrings.length; i++) {
+                    contactsChild = new ContactsChild(organisersStrings[i], drawables[i], drawablesFlags[i]);
+                    contactsChildList.add(contactsChild);
+                }
+
+                ContactsParent contactsParent = new ContactsParent("Organisers", contactsChildList);
+                contactsParentList.add(contactsParent);
+
+                drawables = new Drawable[]{
+                        getResources().getDrawable(R.drawable.valente), // Participant 1
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente)
+                };
+                drawablesFlags = new Drawable[]{
+                        getResources().getDrawable(R.drawable.flag_portugal), // Participant 1
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                };
+
+                contactsChildList = new ArrayList<ContactsChild>();
+                for (int i = 0; i < participantsStrings.length; i++) {
+                    contactsChild = new ContactsChild(participantsStrings[i], drawables[i], drawablesFlags[i]);
+                    contactsChildList.add(contactsChild);
+                }
+
+                contactsParent = new ContactsParent("Participants", contactsChildList);
+                contactsParentList.add(contactsParent);
+                break;
+
+            case 2:         // App dos Organisers
+
+                String[] coreTeamStrings = getResources().getStringArray(R.array.CoreTeam_Orgs);
+                organisersStrings = getResources().getStringArray(R.array.Organisers_Orgs);
+                participantsStrings = getResources().getStringArray(R.array.Participants);
+                drawables = new Drawable[]{
+                        getResources().getDrawable(R.drawable.valente), // CoreTeam 1
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente)
+                };
+                drawablesFlags = new Drawable[]{
+                        getResources().getDrawable(R.drawable.flag_portugal), // CoreTeam 1
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                };
+                contactsChildList = new ArrayList<ContactsChild>();
+                for (int i = 0; i < coreTeamStrings.length; i++) {
+                    contactsChild = new ContactsChild(coreTeamStrings[i], drawables[i], drawablesFlags[i]);
+                    contactsChildList.add(contactsChild);
+                    Log.w(TAG, coreTeamStrings[i] + " " + drawablesFlags[i]);
+                }
+                contactsParent = new ContactsParent("Core Team", contactsChildList);
+                contactsParentList.add(contactsParent);
+                drawables = new Drawable[]{
+                        getResources().getDrawable(R.drawable.valente), // Organiser 1
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente)
+                };
+                drawablesFlags = new Drawable[]{
+                        getResources().getDrawable(R.drawable.flag_portugal), // Organiser 1
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                };
+
+                contactsChildList = new ArrayList<ContactsChild>();
+                for (int i = 0; i < coreTeamStrings.length; i++) {
+                    contactsChild = new ContactsChild(organisersStrings[i], drawables[i], drawablesFlags[i]);
+                    contactsChildList.add(contactsChild);
+                }
+
+                contactsParent = new ContactsParent("Organisers", contactsChildList);
+                contactsParentList.add(contactsParent);
+
+                drawables = new Drawable[]{
+                        getResources().getDrawable(R.drawable.valente), // Participant 1
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente)
+                };
+                drawablesFlags = new Drawable[]{
+                        getResources().getDrawable(R.drawable.flag_portugal), // Participant 1
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                };
+
+                contactsChildList = new ArrayList<ContactsChild>();
+                for (int i = 0; i < participantsStrings.length; i++) {
+                    contactsChild = new ContactsChild(participantsStrings[i], drawables[i], drawablesFlags[i]);
+                    contactsChildList.add(contactsChild);
+                }
+
+                contactsParent = new ContactsParent("Participants", contactsChildList);
+                contactsParentList.add(contactsParent);
+                break;
         }
-        ContactsParent contactsParent = new ContactsParent("Core Team", contactsChildList);
-        contactsParentList.add(contactsParent);
-        drawables = new Drawable[] {
-                getResources().getDrawable(R.drawable.valente), // Organiser 1
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente)
-        };
-        drawablesFlags = new Drawable[] {
-                getResources().getDrawable(R.drawable.flag_portugal), // Organiser 1
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-        };
-
-        contactsChildList = new ArrayList<ContactsChild>();
-        for(int i = 0; i<coreTeamStrings.length; i++){
-            contactsChild = new ContactsChild(organisersStrings[i], drawables[i], drawablesFlags[i]);
-            contactsChildList.add(contactsChild);
-        }
-
-        contactsParent = new ContactsParent("Organisers", contactsChildList);
-        contactsParentList.add(contactsParent);
-
-        drawables = new Drawable[] {
-                getResources().getDrawable(R.drawable.valente), // Participant 1
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente),
-                getResources().getDrawable(R.drawable.valente)
-        };
-        drawablesFlags = new Drawable[] {
-                getResources().getDrawable(R.drawable.flag_portugal), // Participant 1
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-                getResources().getDrawable(R.drawable.flag_portugal),
-        };
-
-        contactsChildList = new ArrayList<ContactsChild>();
-        for(int i = 0; i<participantsStrings.length; i++){
-            contactsChild = new ContactsChild(participantsStrings[i], drawables[i], drawablesFlags[i]);
-            contactsChildList.add(contactsChild);
-        }
-
-        contactsParent = new ContactsParent("Participants", contactsChildList);
-        contactsParentList.add(contactsParent);
     }
 
     @Override
