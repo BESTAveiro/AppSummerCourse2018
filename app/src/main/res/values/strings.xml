@@ -1,8 +1,139 @@
 <resources>
     <string name="app_name">AppSummerCourse</string>
 
+    <string name="search_hint">Search_here</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
     <string name="action_settings">Settings</string>
+
+
+    <!--  App dos Organisers-->
+    <string-array name="CoreTeam_Orgs">
+        <item>João Valente</item>
+        <item>João Valente</item>
+        <item>João Valente</item>
+        <item>João Valente</item>
+    </string-array>
+
+    <string-array name="telemoveisDasPessoas_CoreTeam_Orgs">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+
+    </string-array>
+
+    <string-array name="equipasDasPessoas_CoreTeam_Orgs">
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+    </string-array>
+
+    <string-array name="cargoDasPessoas_CoreTeam_Orgs">
+        <item>Presidente</item>
+        <item>Social Responsible</item>
+        <item>IT Responsible</item>
+        <item>MKT Responsible</item>
+
+    </string-array>
+
+    <string-array name="Organisers_Orgs">
+        <item>Organiser1</item>
+        <item>Organiser2</item>
+        <item>Organiser3</item>
+        <item>Organiser4</item>
+    </string-array>
+
+    <string-array name="telemoveisDasPessoas_Organisers_Orgs">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+
+    </string-array>
+
+    <string-array name="equipasDasPessoas_Organsiers_Orgs">
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+    </string-array>
+
+    <string-array name="cargoDasPessoas_Organisers_Orgs">
+    <item>Presidente</item>
+    <item>Social Responsible</item>
+    <item>IT Responsible</item>
+    <item>MKT Responsible</item>
+    </string-array>
+
+    <!--  App dos Organisers-->
+
+    <string-array name="Organisers_Pax">
+        <item>OrganiserPax</item>
+        <item>OrganiserPax</item>
+        <item>OrganiserPax</item>
+        <item>OrganiserPax</item>
+    </string-array>
+    <string-array name="telemoveisDasPessoas_Organisers_Pax">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+
+    </string-array>
+
+    <string-array name="equipasDasPessoas_Organsiers_Pax">
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+    </string-array>
+
+    <string-array name="cargosDasPessoas_Organisers_Pax">
+        <item>Presidente</item>
+        <item>Social Responsible</item>
+        <item>IT Responsible</item>
+        <item>MKT Responsible</item>
+    </string-array>
+
+
+
+
+
+
+
+    <!-- Participantes não mexer-->
+
+    <string-array name="Participants">
+        <item>Participante1</item>
+        <item>Participante2</item>
+        <item>Participante3</item>
+        <item>Participante4</item>
+    </string-array>
+
+    <string-array name="telemoveisDasPessoas_Participants">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+    </string-array>
+
+    <string-array name="equipasDasPessoas_Participants">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="cargoDasPessoas_Participants">
+        <item>Portugal</item>
+        <item>França</item>
+        <item>Itália</item>
+        <item>Espanha</item>
+    </string-array>
+
+
+
 </resources>

@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <View
+        android:id="@+id/firstView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:layout_toLeftOf="@+id/firstView">
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:paddingTop="50dp"
+            android:text="Nome"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:paddingTop="50dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/texto3"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Equipa"
+            android:paddingTop="50dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/texto4"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textAlignment="center"
+            android:text="Telemóvel"
+            android:paddingTop="50dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:textSize="30dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/secondView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/thirdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/secondView"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_nome"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Name"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:paddingTop="50dp"
+            android:layout_weight="1"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/text_view_cargo"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textAlignment="center"
+            android:text="Name"
+            android:paddingTop="50dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/text_view_equipa"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:paddingTop="50dp"
+            android:textAlignment="center"
+            android:text="Name"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/text_view_numero"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="Name"
+            android:paddingTop="50dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            android:textStyle="italic"/>
+</LinearLayout>
+</RelativeLayout>
