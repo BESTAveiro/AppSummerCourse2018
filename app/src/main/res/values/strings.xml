@@ -62,10 +62,10 @@
     </string-array>
 
     <string-array name="cargoDasPessoas_Organisers_Orgs">
-    <item>Presidente</item>
-    <item>Social Responsible</item>
-    <item>IT Responsible</item>
-    <item>MKT Responsible</item>
+        <item>Presidente</item>
+        <item>Social Responsible</item>
+        <item>IT Responsible</item>
+        <item>MKT Responsible</item>
     </string-array>
 
     <!--  App dos Organisers-->
@@ -99,11 +99,6 @@
     </string-array>
 
 
-
-
-
-
-
     <!-- Participantes não mexer-->
 
     <string-array name="Participants">
@@ -133,7 +128,6 @@
         <item>Itália</item>
         <item>Espanha</item>
     </string-array>
-
 
 
 </resources>
