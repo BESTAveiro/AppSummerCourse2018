@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "372909003479",
+    "firebase_url": "https://summercourse2018-84d15.firebaseio.com",
+    "project_id": "summercourse2018-84d15",
+    "storage_bucket": "summercourse2018-84d15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372909003479:android:26d11f4f25b2fc05",
+        "android_client_info": {
+          "package_name": "bestaveiro.appsummercourse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372909003479-dnpiq0dmlc8mh40koofd3eub8tf2vhbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINOE9gjhV-e2zJ06JyG6j0SLJ6b2iLQs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

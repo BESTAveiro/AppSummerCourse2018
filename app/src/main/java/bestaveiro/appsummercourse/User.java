@@ -20,6 +20,7 @@ public class User implements Serializable {
         return participant;
     }
 
+    /*0:organizer; 1:participant*/
     public void setParticipant(int participant) {
         this.participant = participant;
     }
