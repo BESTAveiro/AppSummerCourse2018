@@ -1,12 +1,10 @@
 package bestaveiro.appsummercourse;
 
-import java.util.ArrayList;
-
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.app.SearchManager;
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -15,7 +13,7 @@ import android.widget.ExpandableListView;
 import android.widget.ImageView;
 import android.widget.SearchView;
 
-import static android.content.ContentValues.TAG;
+import java.util.ArrayList;
 
 //https://www.iconfinder.com/iconsets/famfamfam_flag_icons
 
@@ -23,16 +21,23 @@ import static android.content.ContentValues.TAG;
 public class Contacts extends AppCompatActivity implements
         SearchView.OnQueryTextListener, SearchView.OnCloseListener{
 
+    private String TAG="Contacts";
     private SearchView search;
     private MyListAdapter listAdapter;
     private ExpandableListView myList;
     private ArrayList<ContactsParent> contactsParentList = new ArrayList<ContactsParent>();
     Drawable[] drawables;
     Drawable[] drawablesFlags;
+    private User myUsr;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
+
+        Intent intent=getIntent();
+        myUsr = (User) intent.getSerializableExtra("User");
+        Log.d(TAG,myUsr.getName());
+
         this.setTitle("Contacts"); // Nome no separador
         displayList();
         myList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {

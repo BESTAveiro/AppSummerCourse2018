@@ -1,15 +1,27 @@
 package bestaveiro.appsummercourse;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     private String name, password;
+    private int participant;
 
     public User(){
 
     }
 
-    public User(String name, String password){
+    public User(String name, String password, int participant){
         this.name=name;
         this.password=password;
+        this.participant=participant;
+    }
+
+    public int getParticipant() {
+        return participant;
+    }
+
+    public void setParticipant(int participant) {
+        this.participant = participant;
     }
 
     public String getName() {

@@ -20,6 +20,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 public class LoginActivity extends AppCompatActivity {
@@ -44,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onDataChange( DataSnapshot dataSnapshot) {
                 for(DataSnapshot postSnapshot: dataSnapshot.getChildren()){
                     Log.d(TAG,postSnapshot.child("name").getValue(String.class));
-                    list_users.put(postSnapshot.child("name").getValue(String.class),new User(postSnapshot.child("name").getValue(String.class),postSnapshot.child("password").getValue(String.class)));
+                    list_users.put(postSnapshot.child("name").getValue(String.class),new User(postSnapshot.child("name").getValue(String.class),postSnapshot.child("password").getValue(String.class),postSnapshot.child("participant").getValue(int.class)));
                 }
             }
             @Override
@@ -102,6 +103,7 @@ public class LoginActivity extends AppCompatActivity {
                     User myUsr=list_users.get(u);
 
                     Intent menuIntent = new Intent(LoginActivity.this , MainActivity.class);
+                    menuIntent.putExtra("User", (Serializable) myUsr);
                     startActivity(menuIntent);
                 }
             }

@@ -14,13 +14,21 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import java.io.Serializable;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    public String TAG="MainActivity";
+    public User myUsr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Intent intent=getIntent();
+        myUsr = (User) intent.getSerializableExtra("User");
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -83,10 +91,12 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             Intent newAct = new Intent(this, OrganizersHandbook.class);
+            newAct.putExtra("User", (Serializable) myUsr);
             startActivity(newAct);
 
         } else if (id == R.id.nav_slideshow) {
             Intent newAct = new Intent(this, Contacts.class);
+            newAct.putExtra("User", (Serializable) myUsr);
             startActivity(newAct);
         } else if (id == R.id.nav_manage) {
 
