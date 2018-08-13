@@ -34,9 +34,9 @@ public class Contacts extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
 
-        Intent intent=getIntent();
-        myUsr = (User) intent.getSerializableExtra("User");
-        Log.d(TAG,myUsr.getName());
+        //Intent intent=getIntent();
+        //myUsr = (User) intent.getSerializableExtra("User");
+       // Log.d(TAG,myUsr.getName());
 
         this.setTitle("Contacts"); // Nome no separador
         displayList();

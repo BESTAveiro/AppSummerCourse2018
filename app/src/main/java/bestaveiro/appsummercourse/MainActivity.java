@@ -99,7 +99,8 @@ public class MainActivity extends AppCompatActivity
             newAct.putExtra("User", (Serializable) myUsr);
             startActivity(newAct);
         } else if (id == R.id.nav_manage) {
-
+            Intent newAct = new Intent(this, MapsActivity.class);
+            startActivity(newAct);
 
         }
 
