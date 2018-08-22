@@ -53,15 +53,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private final String TAG = "MapsActivity";
     protected Activity this_activity = this;
-    private Location _location;
     private LatLng current_location=null;
     private GoogleMap mMap;
     GoogleApiClient mGoogleApiClient;
-    Location mLastLocation;
-    Marker mCurrLocationMarker;
     LocationRequest mLocationRequest;
-    int PROXIMITY_RADIUS = 10000;
-    double latitude, longitude;
     double end_latitude, end_longitude;
 
     private Context mContext = MapsActivity.this;
@@ -183,19 +178,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
 
-   /* private String getMapsApiDirectionsUrl() {
-        String waypoints = "waypoints=optimize:true|"
-                + "|" + "|" + BROOKLYN_BRIDGE.latitude + ","
-                + BROOKLYN_BRIDGE.longitude ;
-
-        String sensor = "sensor=false";
-        String params = "origin="+ LOWER_MANHATTAN.latitude + "," + LOWER_MANHATTAN.longitude+"&"+waypoints + "&" + "destination="+ WALL_STREET.latitude + ","+ WALL_STREET.longitude+"&"+sensor;
-        String output = "json";
-        String url = "https://maps.googleapis.com/maps/api/directions/"
-                + output + "?" + params;
-        return url;
-    }*/
-
     private String getMapsApiDirectionsUrl(int index){
         String url = "https://maps.googleapis.com/maps/api/directions/";
         String output = "json";
@@ -308,19 +290,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setMyLocationEnabled(true);
         mMap.setOnMarkerClickListener(this);
         mMap.setOnMarkerDragListener(this);
-
-
-
-        /*if(requestPermissionLocation()) {
-
-            mMap.setOnMyLocationChangeListener(new GoogleMap.OnMyLocationChangeListener() {
-
-                @Override
-                public void onMyLocationChange(Location location) {
-                    mMap.addMarker(new MarkerOptions().position(new LatLng(location.getLatitude(), location.getLongitude())).title("It's Me!"));
-                }
-            });
-        }*/
         getCurrentLocation();
 
     }
@@ -346,7 +315,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             mMap.setOnMyLocationChangeListener(new GoogleMap.OnMyLocationChangeListener() {
                 @Override
                 public void onMyLocationChange(Location location) {
-                    _location = location;
                     mMap.addMarker(new MarkerOptions().position(new LatLng(location.getLatitude(), location.getLongitude())).title("It's Me!"));
                     current_location= new LatLng(location.getLatitude(), location.getLongitude());
                     Log.d(TAG, "location=" + location.getLongitude() + "," + location.getLatitude());

@@ -7,5 +7,10 @@
     <color name="colorBlack">#000000</color>
     <color name="colorSexy">#99ccff</color>
 
+    <color name="colorBlueBackground">#00B8D4</color>
+    <color name="colorLightBlue">#E0F7FA</color>
+    <color name="titlebackgroundcolor">#3232CD</color>
+    <color name="titletextcolor">#FFFF00</color>
+    <color name="black_overlay">#66000000</color>
 
 </resources>

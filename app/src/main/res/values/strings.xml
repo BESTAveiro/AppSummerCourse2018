@@ -140,4 +140,296 @@
         <item>Universidade de Aveiro</item>
         <item>Residências</item>
     </string-array>
+
+    <!--Get2Know & DrinkingGames-->
+    <string-array name="all_drinking_games">
+        <item>Beer Roulette</item>
+        <item>Beer Pong</item>
+        <item>Buzz</item>
+        <item>Blind Date</item>
+        <item>Caps</item>
+        <item>Drug Dealer</item>
+        <item>Fuzzy Duck</item>
+        <item>Irish Christmas Eve</item>
+        <item>Karpets for Game</item>
+        <item>Quarters</item>
+        <item>Signage</item>
+        <item>Spinning Coin</item>
+        <item>The Kings Cup</item>
+        <item>The One Coin</item>
+        <item>Traveling Game</item>
+        <item>Zoom Boing</item>
+    </string-array>
+
+    <string-array name="all_max_players">
+        <item>6</item>
+        <item>32</item>
+        <item>15</item>
+        <item>3</item>
+        <item>8</item>
+        <item>20</item>
+        <item>15</item>
+        <item>20</item>
+        <item>24</item>
+        <item>6</item>
+        <item>10</item>
+        <item>10</item>
+        <item>25</item>
+        <item>15</item>
+        <item>10</item>
+        <item>20</item>
+
+    </string-array>
+
+    <string-array name="all_min_players">
+        <item>2</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>5</item>
+        <item>3</item>
+        <item>6</item>
+        <item>4</item>
+        <item>3</item>
+        <item>5</item>
+        <item>2</item>
+        <item>4</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="nome_das_pessoas">
+        <item>Ana Margarida</item>
+        <item>Ana Malta</item>
+        <item>Ana Vasconcelos</item>
+        <item>Ana Candeidas</item>
+        <item>Ana Rita Silva</item>
+        <item>David Gomes</item>
+        <item>Vânia Gomes</item>
+        <item>Vladimir Ghilas</item>
+        <item>Ana Candeias</item>
+        <item>Ana Daniela Batista</item>
+        <item>Ana Moura</item>
+        <item>Ana Oliveira</item>
+        <item>Catarina Brás</item>
+        <item>Daniela Galvão</item>
+        <item>Dora Videira</item>
+        <item>Eduarda Silva</item>
+        <item>Hugo Simões</item>
+        <item>Jorge Marques</item>
+        <item>Margarida Afonso</item>
+        <item>Maria Inês David</item>
+        <item>Mariana Santos</item>
+        <item>Marta Santos</item>
+        <item>Mateus Lima</item>
+        <item>Rafaela Reis</item>
+        <item>Pedro Martins</item>
+        <item>Rita Oliveira</item>
+        <item>Vicente Almeida</item>
+        <item>Adriana Costa</item>
+    </string-array>
+
+    <string-array name="foto_de_perfil">
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/foto_de_perfil</item>
+    </string-array>
+
+
+    <string-array name="telemoveis_das_pessoas">
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+        <item>123 456 789</item>
+    </string-array>
+
+    <string-array name="equipas_das_pessoas">
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+        <item>Vermelha</item>
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarela</item>
+        <item>Amarela</item>
+    </string-array>
+
+    <string-array name="cargo_das_pessoas">
+        <item>Presidente</item>
+        <item>Social Responsible</item>
+        <item>IT Responsible</item>
+        <item>MKT Responsible</item>
+        <item>FR Responsible</item>
+        <item>VP HR</item>
+        <item>VP HR</item>
+        <item>VP HR</item>
+        <item>VP HR</item>
+    </string-array>
+
+    <string-array name="all_materials">
+        <item>6 beers</item>
+        <item>Big plastic cups, two ping pong balls and drinks</item>
+        <item>Drinks</item>
+        <item>Two bottles of vodka.</item>
+        <item>Beer</item>
+        <item>Deck of cards, drinks</item>
+        <item>Drinks</item>
+        <item>One stick per team, one bottle of beer for participant</item>
+        <item>vodka, cups</item>
+        <item>Coins, drinks</item>
+        <item>Beer</item>
+        <item>Drinks, coins</item>
+        <item>Deck of Cards, Drinks for everybody, Empty Cup (the king\'s cup)</item>
+        <item>1 coin</item>
+        <item>A lot of alcohol.</item>
+        <item>Drinks</item>
+    </string-array>
+    <string-array name="all_descriptions">
+        <item>One person takes a six pack of beer out of the room and shakes one of the cans vigorously. That person then brings out the cans and places them in a bag. Everyone picks one beer from the bag. Everyone opens their beer at the same time while holding it directly under their nose. If your beer explodes then you are \'dead\' and you have to sit out the next round. Everyone drinks their opened beers and then the next round proceeds with the remaining survivors. The last one to be \'alive\' wins.</item>
+        <item>Form different teams and organize the game like a championship or whatever you want, each team is formed by two guys. A game is played by two team so you can manage the team such that you can play many games at the same time avoiding to bother the rest of the people. Each team has a set of ten big cups, fill these cups with beer (or whatever) till one quarter then set up the cups like a triangle, first line 5 cups, next line 3 cups, next 2 and 1 cups on the last line. Put one triangle on one side of the table and the other on the opposite side. A team has to stay behind the biggest line of its triangle, behind the edge of the table (you need a quite big table). Then give them two ping pong balls so each team can try to throw its balls into the cups of the opposing team two time one for each player. Every time one player hits one among the owner of the cups has to drink the beer alternatively. If a team gets two cups in the same round it gets a free round and the others miss their own round. Take care that every player when throws doesn\'t cross with his elbow the edge of the table, if he crosses the edge he misses his turn. Go on till one team hits all the cups of the others. During a game each team can ask only two time to rank the opposing team\'s cups forming whatever shape.</item>
+        <item>Sit everyone around in a circle. Choose one person to start. They start by saying the number 1. The person to their left or right (it doesn\'t matter) says then says 2 and so on. When someone is about to say either 7, 11, a multiple of 7 or 11, or a number containing 7, they must say Buzz (Ex. 1, 2, 3, 4, 5, 6, Buzz, 8, 9, 10, Buzz). As soon as someone says Buzz you switch directions. So if you were going to the right you switch to the left. If anyone messes up, everyone drinks. This is supposed to be a quick moving game so if someone thinks for too long, it counts as messing up. It\'s really fun and easy to learn!!</item>
+        <item>Two contestants stand to each other back to back. They wait for a sign from the judge and then they start to drink their bottles. The person who drinks more, wins. The catch is that when you play, you have no idea how much the other person drunk or whether he finished or not. The person who wins, gets to slap the other person.
+
+It is adviced to play this game only if you know that you don\'t have to wake up early next morning.</item>
+        <item>The players sit in a circle. Each player places an open beer in front of him or her and a cap upside down on the beer. The players take turns throwing a cap at someone else\'s beer. If you knock their cap off, they take a drink. If you knock it off twice in a row, you make up a rule and a consequence for breaking the rule. If you knock it off three times, the person has to chug the beer. You keep going until you miss and it is the next persons turn. You are not allowed to adjust your cap on the beer. If you touch it you must drink. If you knock your own cap off, you must finish your beer.</item>
+        <item>Get as many cards as there are players. There should be one ace and one king mixed with the cards. Mix up cards and distribute one to each player. Players look only at their card. The player with the ace is the drug dealer and the person with the king is the cop. The drug dealer must wink at the other players. Any player who sees the wink must then say \'The deal has been made.\' It is up to the cop to determine who the dealer is. For each wrong guess, the cop must drink for 5 seconds. Players may bluff and pretend they saw the wink even if they haven\'t. This is fun with large groups of people because it is harder for the cop to guess. However, if the cop sees the wink, the dealer must drink for 5 seconds.</item>
+        <item>The group of people sit in a circle, preferably around a table. One person starts the game by saying \'Fuzzy Duck\'. The person to the left follows by either saying \'Fuzzy Duck\' again or saying \'Does he?\' If someone says \'Does he?\' the direction of the game changes and the person to the right must say \'Ducky Fuzz\'. If someone says \'Does he?\' then the direction changes again and you go back to saying \'Fuzzy Duck\'. This continues until someone screws up. That person must drink. The point of the game is to say it very fast. Any pause will also cause a person to have to drink.</item>
+        <item>Divide people into 2-4 groups. Number of players in each group should be even. Each team stands in a row. At ten meters away somebody will stand to give beers and count the turns around the stick. At start signal first players of teams run to the beers. They drink the beer as soon as possible. After that they are given stick. One end of the stick should touch the ground and the player should hold the other end of the stick. After 10 turns around the stick player runs back to his/her team mates. The same procedure is repeated. Fastest team wins.</item>
+        <item>It\'s very simple game. Greates adventage of this game is efect on people when You tell the rules. But be carefull! It involves a lot of drinking! And not much more... Rules are like that: Everyone have to hold cup in his/her hand and it must be filled with vodka. You divide people in 4 teams: Team number 1 Team number 2 Team number 3 Team number 4 And then You say! \'And now everyone who has number is number 1 - drinks!\' - and then they have to drink a shot of vodka! Then when everyone is astonished by the simplicity of the game you say: \'And now everyone who has number is number 2 - drinks!\' - and then they have to drink a shot of vodka! Then everybody understand, what is going on. You continue the procedure with number 3 and 4. Then You can go back to begining! Optionaly You can say: \'And now everyone who has number is number 1 and 2 and 3 and 4 - drinks!\' Simple! Isn\'t it :)?</item>
+        <item>Competitors sit around a table, hard wood works best but you might need to experiment. To decide who will go first, spin the quarter. When it stops, it will be pointing at the person that starts. Once established, the game begins. The shooter tries to bounce a quarter off the table and into a glass. If the quarter goes into the glass, the shooter chooses a person at the table to consume. The amount or size of the drink is debatable. This should be decided before the game starts. The shooter\'s turn is over when he/she does not make the quarter in the cup. Play then proceeds the next shooter. To make things more exciting, rules are developed by the shooters only after making three (3) quarters into the glass in a row. If any rules made are broken, the guilty party must consume.</item>
+        <item>Each player picks a sign (i.e.: grab your lip, grab your ear, when you get good at this game you get creative by pretending to whack off...). Each player must show their chosen sign to the others. Then, a player begins, by doing his sign and the sign of another player. That second player must recognise that sign and continue the game, by performing his/hers sign and the sign of another player. This game goes on till someone fuck\'s up. When they do they must drink then they start over. The key to this game is speed. Example of a game: Brenda sticks her tongue out then does Tacha\'s sign which is cuffing her chin. Tacha in turn cuffs her chin then does Keltie\'s sign, grabs her lip... on and on till someone drinks. You can forbid players to go to the bathroom for a while if they make certain mistakes.</item>
+        <item>Preferably players sitting around a table. Each person has a quarter and everyone starts to spin their quarter and if your quarter falls you must start drinking until the last quarter on the table comes to a stop. You might need to mark the quarters so they do not get mixed up. It gets fun when people\'s quarters start to run into each other.</item>
+        <item>Everybody sits around the table. The king\'s Cup is put in the middle. All the cards are then put in a circle around it. On turn everybody draws a card and has to do what the card says. The game is over when the last King is drawn: Ace - Everybody (drinks) Two - is for you - (the person who card has to point somebody who drinks) Three - is for me - (the person drinks) Four - is for whores - (ladies drink) Five - make up a rule: (i.e. no bad words, no \'drink\' words, stripping rules etc...) Six - is for dicks (gentlemen drink) Seven - Seven Game: (you start counting, and whenever there is a number which cointain seven or is a multiple of it, you say \'Fuck You\' and you reverse the direction of counting. For the less math talented people: 1,2,3,4,5,6, FU , 8,9,10,11,12,13, FU , 15....) of course you know what happens when you mess it up eight - don\'t be late - (this card doesn\'t have to be played immediately. the person who draws has to put his/her hand on the table with the thumb pointing up, or touch the table with his/her thumb. the last person who does it drinks) really sneaky rule nine - bust a rhyme - (the person who picked the card has to say a word, and the one next to him ha s to say a word that rhymes with it. The circle goes on until somebody messes up and drink) ten - waterfall - (the person who draws the car start to drink, and after that the person on his right and so on; when the last person has started, the first one can stop drinking, and the circle goes again. Remember to punish everybody that only \'pretends\' to drink!!!) jack - go back - (the person before you drinks, and you can decide to reverse or not the direction of the game) queen - Questions: Chooser turns to the next person and asks a question (ex: Have you ever licked a donkey\'s butt hole?) then that person must turn to the next person and ask a relevant question (ex:Wouldn\'t a Donkeys butt hole taste like candy?) the person who fumbles drinks. King: whoever draws the first king has to pour something into the king\'s cup. the second king allows you to pour two different things, the third one three, and the lucky one who draws the last king has to drink the entire king\'s cup!!! May God have mercy of his soul.</item>
+        <item>Someone is declared coin flipper. He flips the coin for each player. If they guess heads or tails correctly, it goes to the next player. If not, they drink 2 fingers.</item>
+        <item>Every player needs to have one glass of alcohol (have at least two kinds of alcohol around). Then someone starts by saying a European country. Everyone who has been in that country drinks a sip. If no one has been in that country, the one who said the country bottoms his/her glass. Then everyone passes his/her glass to the next person and someone else says a country.
+
+If someone says a country already mentioned, he/she drinks a sip and says another country and keeps going on until a new country is mentioned.
+
+If you want to make people wasted even faster, have more kinds of alcohol going around and make people drink even if they flew through the country (like if went from Italy to Denmark, you have to drink for Germany and Austria too).
+
+Have fun and enjoy this game!</item>
+        <item>This is a speaking game, passing the turn around te circle by using specific words and looking at the right direction.
+
+There is no right or wrong word, you may choose what to say avery time it\'s your turn, but you have to look at the right direction and always pay attention it is your turn or not!!!
+
+I like to devide the game in 3 steps for ppl to learn it:
+
+First round (beginners): You only need the words \'Zoom\' and \'Boing\'. Person A begins by saying \'zoom\' and looking at the next person B to the right. Now it\'s B\'s turn. He can either say \'zoom\' and look at C or he can say boing and look at A. The person he looks at should speak... and so on.
+So: zoom= look at the next person, boing= look at the previous person (the person that just spoke before you)
+
+Secont roung (after you manage to get the first round right for a couple of turns): Now let\'s add \'zorch\' to the game. \'Zorch\' looks like a zoom but it\'s actually a boing. A says \'zoom\' and looks at B, B says \'zorch\' looks at C but it is  A who has to talk now!!!
+So: zorch= looks like a zoom but it\'s a boing. You look at the next person but the previous one has to respond
+
+Third round (experts): The last word you add to this game is \'mac-filiano\'. This one looks like a boing but it\'s actually a zoom. A says \'zoom\' and looks at B, B says \'mac-filiano\' looks at A but it is C who has to speak.
+So: mac-filiano= looks like a boing but it\'s a zoom. You look at the previous person but the next one has to respond.
+
+
+
+No need to say, loser drinks.
+
+It\'s a very fast, interesting and fun game. Give it a try and enjoy!
+
+</item>
+
+    </string-array>
+
+    <string-array name="get2know_games">
+        <item>Ball Toss</item>
+        <item>Being Blindfolded</item>
+        <item>Bluff-CLub</item>
+        <item>Cat and Mouse</item>
+        <item>Daiquiri Race</item>
+        <item>Fear in a Hat</item>
+        <item>Games To Play While Dancing</item>
+        <item>Names and Stories</item>
+        <item>Question to a neighbor</item>
+        <item>Squirrels</item>
+        <item>The Stalker</item>
+    </string-array>
+    <string-array name="all_max_players_get2know">
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>31</item>
+        <item>12</item>
+        <item>30</item>
+        <item>100</item>
+        <item>15</item>
+        <item>20</item>
+        <item>50</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="all_min_players_get2know">
+        <item>12</item>
+        <item>10</item>
+        <item>5</item>
+        <item>11</item>
+        <item>6</item>
+        <item>2</item>
+        <item>20</item>
+        <item>10</item>
+        <item>10</item>
+        <item>10</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="all_materials_get2know">
+        <item>3 tennis balls</item>
+        <item>Mittens for the girls</item>
+        <item>Hat and coin</item>
+        <item>Nothing</item>
+        <item>Nothing</item>
+        <item>Piece of paper and pen for every player, hat or box to put pieces of paper in</item>
+        <item>Nothing</item>
+        <item>Nothing</item>
+        <item>Nothing</item>
+        <item>Nothing</item>
+        <item>Blindfolds, stones</item>
+    </string-array>
+    <string-array name="all_descriptions_get2know">
+        <item>Have 3 tennis balls handy. Get the group in a circle. Facilitator tosses 1 ball to someone in the group whose name they know saying their name and then the other person\'s name (e.g. Sandy to John). John (person who receives the ball) tosses ball to someone whose name he knows (e.g. John to Phil). Phil tosses to someone whose name he knows and so on, saying both names all the way around the circle. The ball is tossed to each person one time only until everyone in the circle gets it and all names have been said. THEN, facilitator starts again and tosses the balls to the same person (Sandy to John to Phil, etc.) only this time with 2 balls in succession (not at the same time) saying both names, both times. Balls get tossed to the same people they were originally tossed to; first one ball, then the next, all the way around the circle stopping when they get back to the facilitator. THEN, facilitator starts again only with all three balls this time. Saying names each time, all three balls get tossed, in succession, in the same order until they get back to the facilitator. By the time there are three balls going, it gets pretty chaotic and fun. By now all names have been said so many times everyone should have a pretty good idea of who\'s who and they are pretty warmed up and ready to go. If (I should say, when) someone drops a ball, simply give them a chance to chase it down and just pick up where you left off--no need to start again. Hints: In the group, there should be some people who know each other before the game</item>
+        <item>Sit everyone around in a circle. Choose one person to start. They start by saying the number 1. The person to their left or right (it doesn\'t matter) says then says 2 and so on. When someone is about to say either 7, 11, a multiple of 7 or 11, or a number containing 7, they must say Buzz (Ex. 1, 2, 3, 4, 5, 6, Buzz, 8, 9, 10, Buzz). As soon as someone says Buzz you switch directions. So if you were going to the right you switch to the left. If anyone messes up, everyone drinks. This is supposed to be a quick moving game so if someone thinks for too long, it counts as messing up. It\'s really fun and easy to learn!!</item>
+        <item>All the players tell theirs stories in turn. (Before telling their stories the player puts a coin under the hat (all the rest players shouldn\'t see if he/she puts it or not. Heads mean that the story is true, tails - that the story is fabricated)). As the tale-teller finishes his/her the story all the players express their opinion in turn: true or fabricated. After that the leader lifts the hat and all the players see - whether they were right or not. The player who is right gets a point. The player who is mistaken loses a point. The tale-tellers take their turns around the circle. As every player has told their stories, the players count the points. Hints: It is much better to have a separated leader for the game to keep the player enjoy the game away from controlling and trying to count the points</item>
+        <item>The even number of people plus facilitator who stays aside .One of the participants is the cat, one acts as a mouse. Of course the goal of the game isfor cat to catch the mouse. But all the people are involved in the play. We make themstand in the rows with equal number of persons (e.g. 5 rows of 6 people). They have theirarms stretched aside. In that way they create something like ?corridors? (see the drawing): ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- ---o--- The mouse is running away from the cat in the created ?corridors?, while the cat ischasing her. When the facilitator clasp his hands, all the people standing make the 90degrees turn to the right creating now also ?corridors? but in other direction, throughwhich again the mouse is trying to escape the cat: 1 1 1 1 1 1 o o o o o o 1 1 1 1 1 1 1 1 1 1 1 1 o o o o o o 1 1 1 1 1 1 1 1 1 1 1 1 o o o o o o 1 1 1 1 1 1 1 1 1 1 1 1</item>
+        <item>Blindfold the men and line them up on one side of the room. Place the women on the opposite side of the room with a frozen daiquiri. The object of the game is for the women to take a spoonful of the frozen drink, carry the spoon by the handle in their teeth, and feed the drink to their partner. This game has to be done without using any hands, and the first couple to finish their drink wins! This game is also a lot of fun with ice cream instead of daiquiris.</item>
+        <item>* Set an appropriate tone, e.g., settled, attentive, caring and serious. * The tone could be set by introducing the topic of fear and explaining how it is normal and natural at this stage of program that people are experiencing all sorts of anxieties, worries and fears about what might happen. A good way of starting to deal with these fears is have them openly acnkowledged - lay them on the table, without being subject to ridicule. Having one\'s fears expressed and heard almost immediately cuts them in half. * Can be done as the first activity in a program, during the initial stages or well into the program. When used early on in particular, it can help to foster group support and be helpful for alerting the group to issues they may want to respect in a Full Value Contract. * Ask everyone, including the group leaders, to complete this sentence on a piece of paper (anonymously): "In this trip/group/program, I am [most] afraid that..." or "In this trip/group/program, the worst thing that could happen to me would be..." * Collect the pieces of paper, mix them around, then invite each person to a piece of paper and read about someone\'s fear. * One by one, each group member reads out the fear of another group member and elaborates and what he/she feels that person is most afraid of in this group/situation. No one is to comment on what the person says, just listen and move on to the next person. * If the reader doesn\'t elaborate much on the fear, then ask them one or two questions. Avoid implying or showing your opinion as to the fear being expressed, unless the person is disrepecting or completely misunderstanding someone\'s fear. If the person doesn\'t elaborate after one or two questions, leave it and move on. * When all the fears have been read out and elaborated on, then discuss what people felt and noticed. * Can lead into other activities, such as developing a Full Group Contract, personal or team goal settings, course briefings which specifically tackle some of the issues raised, or into other activities in which participants explore their feelings and fears (e.g., see the Fear in a Hat description at www.nurturingpotential.net) _Variations:_ * Likes and dislikes - in two separate hats * Worries * Complaints/gripes * Wishes * Favorite moments</item>
+        <item>Ladies ask gentlemen to a dance. The master of ceremonies announces that during the dance ladies may change their pair. On coming to another dancing pair, the ladies clap their hands. On having received this signal, the gentleman begins to dance with this lady. In the meanwhile the lady who was dancing with him before asks any other gentleman to a dance in the same way.</item>
+        <item>Ask participants to introduce themselves, with each person talking briefly about the most ridiculous thing they\'ve done in their working life. Hint: Try to keep the stories of participants as short as possible to void the others getting bored</item>
+        <item>All the players get into a circle; the leader is at the center. He/she comes to any of the players and asks the question (c.f. "What is your name?", "Where do you live?" etc.) But the questions must be answered by the neighbor on the left of the asked person. If this neighbor answers wrong, he/she must give a forfeit (a piece of clothes, watches etc.) to the leader. When the game finishes the forfeits are raffled. To get their forfeits back the players must fulfill any of the tasks.</item>
+        <item>Everyone gets into groups of three. Two people stand facing each other and join hands to create an arch they are the tree, the third person crouches underneath it and becomes the squirrel.
+You need one extra person to be the \'caller\'. (If you have odd numbers you can have two callers)
+The caller can shout one of three things.
+1 - "Hunter" If hunter is shouted then all the squirrels run to a new \'tree\' the \'caller\' then tries to steal the place of a squirrel. If they are succsessful then the person left without a tree becomes the new \'caller\' (*The trees do not move)
+2 - "Fire" If fire is shouted the trees move to a new squirrel, they must find a new partner to create a tree over a squirrel. The \'caller\' then tries to steal the place of a tree leaving someone new out and they become the new \'caller\'.
+3 - "Earthquake" If this is shouted then everyone moves and takes a new position as either a tree or a squirrel. Again the \'caller steals someones place and a new \'caller is made.
+
+
+
+You can repeat many times, so you don\'t have a limit of time you can play this :)</item>
+        <item>Half the group is given blindfolds to wear. These players are placed in scatter formation within the boundaries of the playing area. A stone is placed between their fee, but not touching them.The other half of the group (the ones that can see) begin to stalk the blindfolded players in an effort to obtain the stone from between their feet. In an attempt to pinpoint a stalker, the blindfolded players may point to a sound. If a stalker is there, the two players switch positions.Stalkers try to collect as many stones as possible without being caught.</item>
+    </string-array>
+
 </resources>

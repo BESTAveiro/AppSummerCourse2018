@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlueBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/buttonGet2Know"
+            android:transitionName="transitionGet2Know"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Get2Know"
+            android:textColor="@color/colorBlueBackground"
+            android:textSize="30dp"
+            android:background="@color/colorWhite"
+            android:textAlignment="center"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/MinPlayers"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp"
+                android:text="Min. Players:"/>
+            <TextView
+                android:id="@+id/MinPlayers2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/MinPlayers"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="2"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="250dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/MaxPlayers"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp"
+                android:text="Max. Players:"/>
+            <TextView
+                android:id="@+id/MaxPlayers2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/MaxPlayers"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="6"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="250dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Materials"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="25dp"
+                android:text="Materials:"/>
+            <TextView
+                android:id="@+id/Materials2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/Materials"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorWhite"
+                android:text="6 beers"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="250dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorWhite" />
+        <TextView
+            android:id="@+id/Description"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="23dp"
+            android:textAlignment="center"
+            android:text="One person takes a six pack of beer out of the room and shakes one of the cans vigorously. That person then brings out the cans and places them in a bag. Everyone picks one beer from the bag. Everyone opens their beer at the same time while holding it directly under their nose. If your beer explodes then you are 'dead' and you have to sit out the next round. Everyone drinks their opened beers and then the next round proceeds with the remaining survivors. The last one to be 'alive'' wins."/>
+
+    </LinearLayout>
+</ScrollView>
