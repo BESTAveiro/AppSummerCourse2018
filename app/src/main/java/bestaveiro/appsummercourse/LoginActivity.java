@@ -114,4 +114,14 @@ public class LoginActivity extends AppCompatActivity {
         InputMethodManager inputMethodManager =(InputMethodManager)getSystemService(Activity.INPUT_METHOD_SERVICE);
         inputMethodManager.hideSoftInputFromWindow(view.getWindowToken(), 0);
     }
+
+    @Override
+    public void onBackPressed() {
+        Toast.makeText(getBaseContext(),"There is no way back",Toast.LENGTH_LONG).show();
+        /*if (!shouldAllowBack()) {
+            doSomething();
+        } else {
+            super.onBackPressed();
+        }*/
+    }
 }

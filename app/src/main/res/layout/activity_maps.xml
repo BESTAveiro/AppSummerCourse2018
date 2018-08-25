@@ -12,10 +12,11 @@
         tools:context=".MapsActivity">
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_gravity="end|bottom"
-            android:src="@drawable/logo"
+            android:tint="@color/colorBlueBackground"
+            android:src="@drawable/ic_action_name_map"
             android:layout_margin="16dp" />
 
     </fragment>
