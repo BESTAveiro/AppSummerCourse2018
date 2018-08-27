@@ -38,6 +38,7 @@
             android:paddingTop="50dp"
             android:textStyle="bold"
             android:textAlignment="center"
+            android:text="Role"
             android:textColor="@color/colorWhite"
             android:textSize="30dp"
             android:layout_weight="1" />
@@ -58,13 +59,13 @@
             android:id="@+id/texto4"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:textAlignment="center"
+            android:layout_weight="1"
+            android:paddingTop="35dp"
             android:text="Telemóvel"
-            android:paddingTop="50dp"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textColor="@color/colorWhite"
             android:textSize="30dp"
-            android:layout_weight="1" />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <View
@@ -115,7 +116,7 @@
             android:layout_width="match_parent"
             android:layout_height="64dp"
             android:text="Name"
-            android:paddingTop="50dp"
+            android:paddingTop="35dp"
             android:textAlignment="center"
             android:textColor="@color/colorBlack"
             android:textSize="30dp"

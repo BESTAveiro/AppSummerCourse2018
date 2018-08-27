@@ -34,9 +34,6 @@ public class Contacts extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts);
 
-        //Intent intent=getIntent();
-        //myUsr = (User) intent.getSerializableExtra("User");
-       // Log.d(TAG,myUsr.getName());
 
         this.setTitle("Contacts"); // Nome no separador
         displayList();
@@ -90,7 +87,7 @@ public class Contacts extends AppCompatActivity implements
     private void loadSomeData() {
 
         // App dos Participantes
-        int login = 2;
+        int login = 2; // TODO 1 is for Pax and 2 is for Orgs
         switch (login){
             case 1: // App dos Pax
                 String[] organisersStrings = getResources().getStringArray(R.array.Organisers_Pax);
@@ -100,14 +97,77 @@ public class Contacts extends AppCompatActivity implements
                 ArrayList<ContactsChild> contactsChildList = new ArrayList<ContactsChild>();
                 ContactsChild contactsChild;
                 drawables = new Drawable[]{
+
                         getResources().getDrawable(R.drawable.valente), // Organiser 1
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
-                        getResources().getDrawable(R.drawable.valente)
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
                 };
                 drawablesFlags = new Drawable[]{
-                        getResources().getDrawable(R.drawable.flag_portugal), // Organiser 1
+                        getResources().getDrawable(R.drawable.flag_portugal), //Organiser 1
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_moldavia),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_venezuela),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_austria),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_brazil),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
@@ -128,14 +188,57 @@ public class Contacts extends AppCompatActivity implements
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente)
                 };
                 drawablesFlags = new Drawable[]{
-                        getResources().getDrawable(R.drawable.flag_portugal), // Participant 1
+                        getResources().getDrawable(R.drawable.flag_belgium), // Participante 1
+                        getResources().getDrawable(R.drawable.flag_romenia),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_russia),
+                        getResources().getDrawable(R.drawable.flag_czech),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_canada),
+                        getResources().getDrawable(R.drawable.flag_turkey),
+                        getResources().getDrawable(R.drawable.flag_italy),
+                        getResources().getDrawable(R.drawable.flag_turkey),
+                        getResources().getDrawable(R.drawable.flag_germany),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_croatia),
+                        getResources().getDrawable(R.drawable.flag_hungary),
                         getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_poland),
+                        getResources().getDrawable(R.drawable.flag_bulgary),
+                        getResources().getDrawable(R.drawable.flag_greece),
+                        getResources().getDrawable(R.drawable.flag_germany),
+                        getResources().getDrawable(R.drawable.flag_poland),
+                        getResources().getDrawable(R.drawable.flag_italy),
+                        getResources().getDrawable(R.drawable.flag_austria),
+                        getResources().getDrawable(R.drawable.flag_serbia),
                         getResources().getDrawable(R.drawable.flag_portugal),
-                        getResources().getDrawable(R.drawable.flag_portugal),
-                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_belgium),
                 };
 
                 contactsChildList = new ArrayList<ContactsChild>();
@@ -158,6 +261,14 @@ public class Contacts extends AppCompatActivity implements
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente)
                 };
                 drawablesFlags = new Drawable[]{
@@ -166,6 +277,14 @@ public class Contacts extends AppCompatActivity implements
                         getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_moldavia),
+
                 };
                 contactsChildList = new ArrayList<ContactsChild>();
                 for (int i = 0; i < coreTeamStrings.length; i++) {
@@ -180,10 +299,49 @@ public class Contacts extends AppCompatActivity implements
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente)
                 };
                 drawablesFlags = new Drawable[]{
-                        getResources().getDrawable(R.drawable.flag_portugal), // Organiser 1
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_venezuela),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_austria),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_brazil),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
                         getResources().getDrawable(R.drawable.flag_portugal),
@@ -191,7 +349,7 @@ public class Contacts extends AppCompatActivity implements
                 };
 
                 contactsChildList = new ArrayList<ContactsChild>();
-                for (int i = 0; i < coreTeamStrings.length; i++) {
+                for (int i = 0; i < organisersStrings.length; i++) {
                     contactsChild = new ContactsChild(organisersStrings[i], drawables[i], drawablesFlags[i]);
                     contactsChildList.add(contactsChild);
                 }
@@ -204,14 +362,57 @@ public class Contacts extends AppCompatActivity implements
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
+                        getResources().getDrawable(R.drawable.valente),
                         getResources().getDrawable(R.drawable.valente)
                 };
                 drawablesFlags = new Drawable[]{
-                        getResources().getDrawable(R.drawable.flag_portugal), // Participant 1
+                        getResources().getDrawable(R.drawable.flag_belgium), // Participante 1
+                        getResources().getDrawable(R.drawable.flag_romenia),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_russia),
+                        getResources().getDrawable(R.drawable.flag_czech),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_canada),
+                        getResources().getDrawable(R.drawable.flag_turkey),
+                        getResources().getDrawable(R.drawable.flag_italy),
+                        getResources().getDrawable(R.drawable.flag_turkey),
+                        getResources().getDrawable(R.drawable.flag_germany),
+                        getResources().getDrawable(R.drawable.flag_spain),
+                        getResources().getDrawable(R.drawable.flag_croatia),
+                        getResources().getDrawable(R.drawable.flag_hungary),
                         getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_poland),
+                        getResources().getDrawable(R.drawable.flag_bulgary),
+                        getResources().getDrawable(R.drawable.flag_greece),
+                        getResources().getDrawable(R.drawable.flag_germany),
+                        getResources().getDrawable(R.drawable.flag_poland),
+                        getResources().getDrawable(R.drawable.flag_italy),
+                        getResources().getDrawable(R.drawable.flag_austria),
+                        getResources().getDrawable(R.drawable.flag_serbia),
                         getResources().getDrawable(R.drawable.flag_portugal),
-                        getResources().getDrawable(R.drawable.flag_portugal),
-                        getResources().getDrawable(R.drawable.flag_portugal),
+                        getResources().getDrawable(R.drawable.flag_belgium),
                 };
 
                 contactsChildList = new ArrayList<ContactsChild>();
