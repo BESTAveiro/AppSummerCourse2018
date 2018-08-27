@@ -109,6 +109,9 @@ public class MainActivity extends AppCompatActivity
         } else if(id == R.id.nav_gallery){
             Intent newAct = new Intent(this, main_drinking_and_get2know_games.class);
             startActivity(newAct);
+        } else if(id == R.id.nav_schedule){
+            Intent newAct = new Intent(this, Schedule.class);
+            startActivity(newAct);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

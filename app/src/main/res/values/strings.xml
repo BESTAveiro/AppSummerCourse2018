@@ -432,4 +432,7 @@ You can repeat many times, so you don\'t have a limit of time you can play this 
         <item>Half the group is given blindfolds to wear. These players are placed in scatter formation within the boundaries of the playing area. A stone is placed between their fee, but not touching them.The other half of the group (the ones that can see) begin to stalk the blindfolded players in an effort to obtain the stone from between their feet. In an attempt to pinpoint a stalker, the blindfolded players may point to a sound. If a stalker is there, the two players switch positions.Stalkers try to collect as many stones as possible without being caught.</item>
     </string-array>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
