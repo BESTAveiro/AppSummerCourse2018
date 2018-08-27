@@ -10,123 +10,451 @@
 
     <!--  App dos Organisers-->
     <string-array name="CoreTeam_Orgs">
-        <item>João Valente</item>
-        <item>João Valente</item>
-        <item>João Valente</item>
-        <item>João Valente</item>
+        <item>Ana Batista</item>
+        <item>Catarina Lopes</item>
+        <item>David Gomes</item>
+        <item>Jorge Silva</item>
+        <item>José Silva</item>
+        <item>Maria Brandão</item>
+        <item>Maria Inês</item>
+        <item>Mateus Lima</item>
+        <item>Pedro Martins</item>
+        <item>Raquel Brito</item>
+        <item>Vânia Martins</item>
+        <item>Vladimir Ghilas</item>
     </string-array>
 
     <string-array name="telemoveisDasPessoas_CoreTeam_Orgs">
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-
+        <item>911 783 578</item>
+        <item>925 731 134</item>
+        <item>938 097 366</item>
+        <item>917 077 329</item>
+        <item>918 311 076</item>
+        <item>913 134 542</item>
+        <item>914 530 033</item>
+        <item>913 396 248</item>
+        <item>915 725 360</item>
+        <item>914 277 396</item>
+        <item>931 443 413</item>
+        <item>961 013 113</item>
     </string-array>
 
     <string-array name="equipasDasPessoas_CoreTeam_Orgs">
-        <item>Vermelha</item>
-        <item>Azul</item>
-        <item>Verde</item>
-        <item>Amarela</item>
+        <item>Slytherin</item>
+        <item>Ravenclaw</item>
+        <item>Ravenclaw</item>
+        <item>Dumbledore</item>
+        <item>Hufflepuff</item>
+        <item>Gryffindor</item>
+        <item>Slytherin</item>
+        <item>Ravenclaw</item>
+        <item>Dumbledore</item>
+        <item>Hufflepuff</item>
+        <item>Hufflepuff</item>
+        <item>Gryffindor</item>
     </string-array>
 
     <string-array name="cargoDasPessoas_CoreTeam_Orgs">
-        <item>Presidente</item>
+        <item>Academic Responsible</item>
+        <item>Cultural Responsible</item>
         <item>Social Responsible</item>
+        <item>Main Organiser</item>
+        <item>Social Responsible</item>
+        <item>Participants Responsible</item>
+        <item>Marketing Responsible</item>
         <item>IT Responsible</item>
-        <item>MKT Responsible</item>
+        <item>Logistic Responsible</item>
+        <item>FR Responsible</item>
+        <item>Multimedia Responsible</item>
+        <item>Cultural Responsible</item>
 
     </string-array>
 
     <string-array name="Organisers_Orgs">
-        <item>Organiser1</item>
-        <item>Organiser2</item>
-        <item>Organiser3</item>
-        <item>Organiser4</item>
+        <item>Adriana Costa</item>
+        <item>Ana Moura</item>
+        <item>Alexandre Vala</item>
+        <item>Ana Malta</item>
+        <item>André Jerónimo</item>
+        <item>Carolina Conceição</item>
+        <item>Catarina Brás</item>
+        <item>Clara Andina</item>
+        <item>Dalila Marques</item>
+        <item>Diego Hernandez</item>
+        <item>Dinis Bruno</item>
+        <item>Falk Khalifa</item>
+        <item>Francisca Bragança</item>
+        <item>Jean Brito</item>
+        <item>Joana Caneco</item>
+        <item>João Valente</item>
+        <item>Maria Oliveira</item>
+        <item>Mariana Soares</item>
+        <item>Miguel Oliveira</item>
+        <item>Pedro Reis</item>
+        <item>Raquel Dantas</item>
+        <item>Ricardo Felgueiras</item>
+        <item>Rita Sardão</item>
+        <item>Vicente Almeida</item>
     </string-array>
 
     <string-array name="telemoveisDasPessoas_Organisers_Orgs">
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-
+        <item>916 831 033</item>
+        <item>917 128 001</item>
+        <item>912 391 493</item>
+        <item>910 344 520</item>
+        <item>962 399 461</item>
+        <item>911 786 398</item>
+        <item>910 418 616</item>
+        <item>346 3898 4478</item>
+        <item>917 369 988</item>
+        <item>912 509 530</item>
+        <item>911 858620</item>
+        <item>4915 776 08515</item>
+        <item>917 266 437</item>
+        <item>933 323 000</item>
+        <item>914 417 607</item>
+        <item>910 975 876</item>
+        <item>924 075 555</item>
+        <item>915 201 196</item>
+        <item>925 030 168</item>
+        <item>919 433 150</item>
+        <item>936 213 017</item>
+        <item>917 753 108</item>
+        <item>915 160 038</item>
+        <item>919 393 375</item>
     </string-array>
 
     <string-array name="equipasDasPessoas_Organsiers_Orgs">
-        <item>Vermelha</item>
-        <item>Azul</item>
-        <item>Verde</item>
-        <item>Amarela</item>
+        <item>Ravenclaw</item>
+        <item>Gryffindor</item>
+        <item>Gryffindor</item>
+        <item>Gryffindor</item>
+        <item>Ravenclaw</item>
+        <item>Ravenclaw</item>
+        <item>Hufflepuff</item>
+        <item>Slytherin</item>
+        <item>Slytherin</item>
+        <item>Gryffindor</item>
+        <item>Slytherin</item>
+        <item>Gryffindor</item>
+        <item>Slytherin</item>
+        <item>Hufflepuff</item>
+        <item>Hufflepuff</item>
+        <item>Hufflepuff</item>
+        <item>Ravenclaw</item>
+        <item>Slytherin</item>
+        <item>Hufflepuff</item>
+        <item>Slytherin</item>
+        <item>Hufflepuff</item>
+        <item>Gryffindor</item>
+        <item>Ravenclaw</item>
+        <item>Ravenclaw</item>
     </string-array>
 
     <string-array name="cargoDasPessoas_Organisers_Orgs">
-        <item>Presidente</item>
-        <item>Social Responsible</item>
-        <item>IT Responsible</item>
-        <item>MKT Responsible</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>VP HR</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Coorganiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Coorganiser</item>
+        <item>Secretary</item>
+        <item>Organiser</item>
+        <item>Treasurer</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>President</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>VP IS</item>
+        <item>Organiser</item>
     </string-array>
 
-    <!--  App dos Organisers-->
+    <!--  Contacts - App dos Participantes-->
 
     <string-array name="Organisers_Pax">
-        <item>OrganiserPax</item>
-        <item>OrganiserPax</item>
-        <item>OrganiserPax</item>
-        <item>OrganiserPax</item>
+
+
+
+
+
+
+
+        <item>Ana Batista</item>
+        <item>Catarina Lopes</item>
+        <item>David Gomes</item>
+        <item>Jorge Silva</item>
+        <item>José Silva</item>
+        <item>Maria Brandão</item>
+        <item>Maria Inês</item>
+        <item>Mateus Lima</item>
+        <item>Pedro Martins</item>
+        <item>Raquel Brito</item>
+        <item>Vânia Martins</item>
+        <item>Vladimir Ghilas</item>
+        <item>Adriana Costa</item>
+        <item>Ana Moura</item>
+        <item>Alexandre Vala</item>
+        <item>Ana Malta</item>
+        <item>André Jerónimo</item>
+        <item>Carolina Conceição</item>
+        <item>Catarina Brás</item>
+        <item>Clara Andina</item>
+        <item>Dalila Marques</item>
+        <item>Diego Hernandez</item>
+        <item>Dinis Bruno</item>
+        <item>Falk Khalifa</item>
+        <item>Francisca Bragança</item>
+        <item>Jean Brito</item>
+        <item>Joana Caneco</item>
+        <item>João Valente</item>
+        <item>Maria Oliveira</item>
+        <item>Mariana Soares</item>
+        <item>Miguel Oliveira</item>
+        <item>Pedro Reis</item>
+        <item>Raquel Dantas</item>
+        <item>Ricardo Felgueiras</item>
+        <item>Rita Sardão</item>
+        <item>Vicente Almeida</item>
     </string-array>
     <string-array name="telemoveisDasPessoas_Organisers_Pax">
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-
+        <item>911 783 578</item>
+        <item>925 731 134</item>
+        <item>938 097 366</item>
+        <item>917 077 329</item>
+        <item>918 311 076</item>
+        <item>913 134 542</item>
+        <item>914 530 033</item>
+        <item>913 396 248</item>
+        <item>915 725 360</item>
+        <item>914 277 396</item>
+        <item>931 443 413</item>
+        <item>961 013 113</item>
+        <item>916 831 033</item>
+        <item>917 128 001</item>
+        <item>912 391 493</item>
+        <item>910 344 520</item>
+        <item>962 399 461</item>
+        <item>911 786 398</item>
+        <item>910 418 616</item>
+        <item>346 3898 4478</item>
+        <item>917 369 988</item>
+        <item>912 509 530</item>
+        <item>911 858620</item>
+        <item>4915 776 08515</item>
+        <item>917 266 437</item>
+        <item>933 323 000</item>
+        <item>914 417 607</item>
+        <item>910 975 876</item>
+        <item>924 075 555</item>
+        <item>915 201 196</item>
+        <item>925 030 168</item>
+        <item>919 433 150</item>
+        <item>936 213 017</item>
+        <item>917 753 108</item>
+        <item>915 160 038</item>
+        <item>919 393 375</item>
     </string-array>
 
     <string-array name="equipasDasPessoas_Organsiers_Pax">
-        <item>Vermelha</item>
-        <item>Azul</item>
-        <item>Verde</item>
-        <item>Amarela</item>
+        <item>Slytherin</item>
+        <item>Ravenclaw</item>
+        <item>Ravenclaw</item>
+        <item>Dumbledore</item>
+        <item>Hufflepuff</item>
+        <item>Gryffindor</item>
+        <item>Slytherin</item>
+        <item>Ravenclaw</item>
+        <item>Dumbledore</item>
+        <item>Hufflepuff</item>
+        <item>Hufflepuff</item>
+        <item>Gryffindor</item>
+        <item>Ravenclaw</item>
+        <item>Gryffindor</item>
+        <item>Gryffindor</item>
+        <item>Gryffindor</item>
+        <item>Ravenclaw</item>
+        <item>Ravenclaw</item>
+        <item>Hufflepuff</item>
+        <item>Slytherin</item>
+        <item>Slytherin</item>
+        <item>Gryffindor</item>
+        <item>Slytherin</item>
+        <item>Gryffindor</item>
+        <item>Slytherin</item>
+        <item>Hufflepuff</item>
+        <item>Hufflepuff</item>
+        <item>Hufflepuff</item>
+        <item>Ravenclaw</item>
+        <item>Slytherin</item>
+        <item>Hufflepuff</item>
+        <item>Slytherin</item>
+        <item>Hufflepuff</item>
+        <item>Gryffindor</item>
+        <item>Ravenclaw</item>
+        <item>Ravenclaw</item>
     </string-array>
 
     <string-array name="cargosDasPessoas_Organisers_Pax">
-        <item>Presidente</item>
+        <item>Academic Responsible</item>
+        <item>Cultural Responsible</item>
         <item>Social Responsible</item>
+        <item>Main Organiser</item>
+        <item>Social Responsible</item>
+        <item>Participants Responsible</item>
+        <item>Marketing Responsible</item>
         <item>IT Responsible</item>
-        <item>MKT Responsible</item>
+        <item>Logistic Responsible</item>
+        <item>FR Responsible</item>
+        <item>Multimedia Responsible</item>
+        <item>Cultural Responsible</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>VP HR</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Coorganiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Coorganiser</item>
+        <item>Secretary</item>
+        <item>Organiser</item>
+        <item>Treasurer</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>President</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>Organiser</item>
+        <item>VP IS</item>
+        <item>Organiser</item>
     </string-array>
 
 
-    <!-- Participantes não mexer-->
+    <!-- Contacts - Participantes para Pax e Orgs-->
 
     <string-array name="Participants">
-        <item>Participante1</item>
-        <item>Participante2</item>
-        <item>Participante3</item>
-        <item>Participante4</item>
+        <item>Alexandre Gobeaux</item>
+        <item>Andreea Salagean</item>
+        <item>Andres Garcia</item>
+        <item>Artem Burcha</item>
+        <item>Barbora Šourková</item>
+        <item>Borja Sánchez</item>
+        <item>Deanna Danelon</item>
+        <item>Dogukan Sonmez</item>
+        <item>Francesco Cantavenera</item>
+        <item>Gizem Güngör</item>
+        <item>Gwendolyn Rippberger</item>
+        <item>Iris Balcázar</item>
+        <item>Ivana Vrdoljak</item>
+        <item>Kornél Szekeres</item>
+        <item>João Santos</item>
+        <item>Marta Krawczyk</item>
+        <item>Nadezhda Gesheva</item>
+        <item>Parthena Manousaridou</item>
+        <item>Paul Kunze</item>
+        <item>Pawel Budzynski</item>
+        <item>Samuele Pino</item>
+        <item>Stefanie Mühlehner</item>
+        <item>Teodora Jevtić</item>
+        <item>Tiago Faria</item>
+        <item>Thibaut De Cremer</item>
     </string-array>
 
     <string-array name="telemoveisDasPessoas_Participants">
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
-        <item>123 456 789</item>
+        <item>+32 472203402</item>
+        <item>+40 748106495</item>
+        <item>+34 663 667 493</item>
+        <item>+7 9852891445</item>
+        <item>+420 608804706</item>
+        <item>+34 628905425</item>
+        <item>+1 647 898 9552</item>
+        <item>+90 506 024 94 24</item>
+        <item>+39 3774670315</item>
+        <item>+90 506 670 5589</item>
+        <item>+436506802942</item>
+        <item>+34 673 211 549</item>
+        <item>+385 913 091 735</item>
+        <item>+36 304669277</item>
+        <item>+351 914 876 841</item>
+        <item>+48 660050655</item>
+        <item>+359 882783062</item>
+        <item>+30 6987920341</item>
+        <item>+49 1744132121</item>
+        <item>+48 507199765</item>
+        <item>+39 3408875839</item>
+        <item>+43 6605678920</item>
+        <item>+381 613273054</item>
+        <item>+351 911 718 738</item>
+        <item>+31 0472078859</item>
     </string-array>
 
     <string-array name="equipasDasPessoas_Participants">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
         <item>Female</item>
         <item>Male</item>
         <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Female</item>
+        <item>Male</item>
         <item>Male</item>
     </string-array>
 
     <string-array name="cargoDasPessoas_Participants">
+        <item>Belgium</item>
+        <item>Romania</item>
+        <item>Spain</item>
+        <item>Russia</item>
+        <item>Czech Republic</item>
+        <item>Spain</item>
+        <item>Canada</item>
+        <item>Turkey</item>
+        <item>Italy</item>
+        <item>Turkey</item>
+        <item>Germany</item>
+        <item>Spain</item>
+        <item>Croatia</item>
+        <item>Hungary</item>
         <item>Portugal</item>
-        <item>França</item>
-        <item>Itália</item>
-        <item>Espanha</item>
+        <item>Poland</item>
+        <item>Bulgary</item>
+        <item>Greece</item>
+        <item>Germany</item>
+        <item>Poland</item>
+        <item>Italy</item>
+        <item>Austria</item>
+        <item>Serbia</item>
+        <item>Portugal</item>
+        <item>Belgium</item>
     </string-array>
 
     <string name="title_activity_maps">Current Place Details</string>
@@ -232,15 +560,15 @@
     </string-array>
 
     <string-array name="foto_de_perfil">
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
-        <item>@drawable/foto_de_perfil</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
+        <item>@drawable/valente</item>
     </string-array>
 
 
@@ -353,7 +681,7 @@ It\'s a very fast, interesting and fun game. Give it a try and enjoy!
 
 </item>
 
-    </string-array>
+    </string-array>/
 
     <string-array name="get2know_games">
         <item>Ball Toss</item>

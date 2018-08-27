@@ -8,11 +8,11 @@
             android:title="OH" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/drink"
+            android:icon="@drawable/valente"
             android:title="G2K and DG" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/contacts"
+            android:icon="@drawable/valente"
             android:title="Contacts" />
         <item
             android:id="@+id/nav_manage"
