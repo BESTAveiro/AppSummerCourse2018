@@ -183,11 +183,6 @@
     <string-array name="Organisers_Pax">
 
 
-
-
-
-
-
         <item>Ana Batista</item>
         <item>Catarina Lopes</item>
         <item>David Gomes</item>
@@ -681,7 +676,8 @@ It\'s a very fast, interesting and fun game. Give it a try and enjoy!
 
 </item>
 
-    </string-array>/
+    </string-array>
+    /
 
     <string-array name="get2know_games">
         <item>Ball Toss</item>

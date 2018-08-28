@@ -35,7 +35,8 @@
         <activity
             android:name=".LoginActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.SEARCH" />
@@ -50,7 +51,8 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.SEARCH" />
@@ -63,14 +65,22 @@
                 android:resource="@xml/searchable" />
         </activity>
         <activity android:name=".OrganizersHandbook" />
-        <activity android:name=".GetToKnowDrinkingGames" />
-        <activity android:name=".Contacts" />
-        <activity android:name=".People" />
-        <activity android:name=".main_drinking_and_get2know_games" />
-        <activity android:name=".Get2Know" />
-        <activity android:name=".Get2KnowDescription" />
-        <activity android:name=".DrinkingGame" />
-        <activity android:name=".DrinkingGameDescription" />
+        <activity android:name=".GetToKnowDrinkingGames"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Contacts"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".People"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".main_drinking_and_get2know_games"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Get2Know"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Get2KnowDescription"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DrinkingGame"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DrinkingGameDescription"
+            android:screenOrientation="portrait"/>
 
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -88,6 +98,7 @@
             android:name=".MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name=".Schedule" />
+        <activity android:name=".ShowPdf"></activity>
     </application>
 
 </manifest>

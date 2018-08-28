@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,6 +11,46 @@
     <ImageView
         android:id="@+id/main_logo"
         android:layout_width="match_parent"
+        android:visibility="gone"
         android:layout_height="match_parent"/>
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/button_gryffindor"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:visibility="gone"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/red"
+        android:text="Team Gryffindor"/>
+
+    <Button
+        android:id="@+id/button_ravenclaw"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone"
+        android:backgroundTint="@color/yellow"
+        android:text="Team Ravenclaw"
+        android:layout_below="@id/button_gryffindor"/>
+
+    <Button
+        android:id="@+id/button_slytherin"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:visibility="gone"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/green"
+        android:text="Team Slytherin"
+        android:layout_below="@id/button_ravenclaw"/>
+
+    <Button
+        android:id="@+id/button_huffelpuff"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:visibility="gone"
+        android:textColor="@color/colorWhite"
+        android:backgroundTint="@color/blue"
+        android:text="Team Huffelpuff"
+        android:layout_below="@id/button_slytherin"/>
+
+</RelativeLayout>

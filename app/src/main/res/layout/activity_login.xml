@@ -27,7 +27,7 @@
             android:id="@+id/edit_text_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="ex: Harry Potter"
+            android:hint="Harry Potter"
             android:layout_below="@id/text_view_login"
             android:inputType="text"
             android:imeOptions="actionDone"/>

@@ -13,4 +13,9 @@
     <color name="titletextcolor">#FFFF00</color>
     <color name="black_overlay">#66000000</color>
 
+    <color name="red">#CE291A</color>
+    <color name="yellow">#D9AD2E</color>
+    <color name="blue">#366DA3</color>
+    <color name="green">#7AB880</color>
+
 </resources>

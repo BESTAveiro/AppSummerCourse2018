@@ -15,7 +15,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_gravity="end|bottom"
-            android:tint="@color/colorBlueBackground"
+            android:backgroundTint="@color/blue"
             android:src="@drawable/ic_action_name_map"
             android:layout_margin="16dp" />
 

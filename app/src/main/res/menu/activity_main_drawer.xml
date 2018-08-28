@@ -2,17 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/book_icon"
-            android:title="OH" />
+        <!--<item-->
+            <!--android:id="@+id/nav_camera"-->
+            <!--android:icon="@drawable/book_icon"-->
+            <!--android:title="OH" />-->
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/valente"
+            android:icon="@drawable/g2k_dg_icon"
             android:title="G2K and DG" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/valente"
+            android:icon="@drawable/contacts_icon"
             android:title="Contacts" />
         <item
             android:id="@+id/nav_manage"
@@ -20,7 +20,7 @@
             android:title="Map" />
         <item
             android:id="@+id/nav_schedule"
-            android:icon="@mipmap/book_icon"
+            android:icon="@drawable/schedule_icon"
             android:title="Schedule"/>
     </group>
 

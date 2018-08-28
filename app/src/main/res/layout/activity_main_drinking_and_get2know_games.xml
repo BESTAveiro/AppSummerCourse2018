@@ -13,7 +13,7 @@
         android:id="@+id/DrinkingGameButton"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="false"
-        android:src="@drawable/valente"/>
+        android:src="@drawable/rsz_beers"/>
     <TextView
         android:id="@+id/DrinkingGameFont"
         android:layout_width="wrap_content"
@@ -41,7 +41,7 @@
         android:id="@+id/Get2KnowButton"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="false"
-        android:src="@drawable/valente"/>
+        android:src="@drawable/rsz_1friends"/>
     <TextView
         android:id="@+id/Get2KnowFont"
         android:layout_width="wrap_content"
